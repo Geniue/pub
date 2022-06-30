@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style="display: block;">
+<head>
+	<title>Carpet Cleaners Bromley, Kent &amp; Croydon | PristineGreen Cleaning </title>
+	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/head_tags.php'); ?>
+	
+</head>
+<body class="home page-template page-template-page-home page-template-page-home-php page page-id-2 group-blog" style="opacity: 1 !important; display: block;">
+
+	<div id="loading"></div>
+	<div id="page" class="site">
+		
+		<?php include_once($_SERVER['DOCUMENT_ROOT'].'/header.php'); ?>
+		
+		
+		
+		
+		
+		
+	
+	</div>
+	
+	<?php include_once($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
+
+</body>
+</html>
