@@ -1,10 +1,10 @@
-<?php 
+<?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
 $site_title = "Privacy Policy";
 $site_description = "";
 $site_keywords = "";
-$canonical = "";
+$canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
 $og_title = "";
@@ -18,18 +18,18 @@ LD_JSON;
 <html lang="en-GB">
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/head_tags.php'); ?>
-	
+
 </head>
 <body class="page-template-default page page-id-2542 group-blog">
 
 	<div id="loading"></div>
 	<div id="page" class="site">
-		
+
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/header.php'); ?>
-		
-		
-		
-		
+
+
+
+
 		<section id="simple-pages" role="main">
          <div class="container">
             <div class="row">
@@ -38,9 +38,9 @@ LD_JSON;
                      <h3>Privacy Policy</h3>
                   </div>
                   <div class="entry-content clearfix">
-                     <p>Stuey's Green Auto Clean Privacy Policy</p>
+                     <p>PristineGreen Upholstery and Carpet Cleaning Privacy Policy</p>
 <br>
-<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://stueysgreenautoclean.com (the &ldquo;Site&rdquo;).</p>
+<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://pristinegreencleaning.com (the &ldquo;Site&rdquo;).</p>
 <br>
 <p>PERSONAL INFORMATION WE COLLECT</p>
 <br>
@@ -110,7 +110,7 @@ LD_JSON;
 <br>
 <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 <br>
-<p>Stuey's Green Auto Clean does not knowingly collect any personal identifiable information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+<p>Pristinegreen upholstery and carpet cleaning does not knowingly collect any personal identifiable information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 <br>
 <p>CHANGES</p>
 <br>
@@ -118,28 +118,28 @@ LD_JSON;
 <br>
 <p>CONTACT US</p>
 <br>
-<p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at sales@stueysgreenautoclean.com</p>
- <br>                    
+<p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at sales@pristinegreencleaning.com</p>
+ <br>
                   </div>
                </div>
             </div>
          </div>
       </section>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-		
-		
-		
-		
-		
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</div>
-	
+
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 
 </body>

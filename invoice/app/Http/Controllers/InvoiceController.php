@@ -61,7 +61,6 @@ class InvoiceController extends Controller
             $invoice->user_id=Auth::id();
             $invoice->notes=$request->notes;
             $invoice->save();
-			
             $this->storeInfo($invoice,$request);
             $message="Invoice Generated successfully";
             $type="success";

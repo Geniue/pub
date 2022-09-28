@@ -38,9 +38,7 @@ class PostController extends Controller
     }
 
     public function store(Request $request){
-		$posts_latest_id = POST::orderBy('id', 'desc')->get()[0]->id;
         $post = new Post();
-		$post->id = $posts_latest_id + 1;
         $post->title = $request->title;
         $post->image_title = $request->image_title;
         $post->image_title_tag = $request->image_title_tag;

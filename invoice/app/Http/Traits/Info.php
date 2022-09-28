@@ -31,7 +31,7 @@ trait Info
         foreach($request->item_name as $key=>$value){
             $invoiceitem=new InvoiceItem();
             $invoiceitem->item_name=$request->item_name[$key];
-            $invoiceitem->package=strval($request->package[$key]);
+            $invoiceitem->package=$request->package[$key];
             $invoiceitem->fixed_price=$request->fixed_price[$key];
             $invoiceitem->invoice_id=$invoice->id;
             $invoiceitem->save();

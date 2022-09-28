@@ -73,7 +73,15 @@ LD_JSON;
 	  }
    
 	</style>
-	
+<style>
+	.services-heading h1 {
+		color: #2baf38;
+	}
+
+	.services-heading h1 .blue {
+		color: #4873b7;
+	}
+</style>	
 	
 </head>
 <body class="carpet-cleaning-template-default single single-carpet-cleaning postid-4212 single-format-standard group-blog" style="opacity: 1 !important; display: block;">

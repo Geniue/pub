@@ -37,10 +37,9 @@ class GalleryController extends Controller
     public function store(Request $request)
     {
         try {
-			$last_id = Gallery::orderBy('id', 'desc')->get()[0]->id;
+
             $data=new Gallery();
             $image_title = $request->image_title;
-			$data['id'] = $last_id +1;
             $data['image_title']=$image_title;
             $data['image_alt']=$request->image_alt;
             $data['thumb_title']=$request->thumb_title;

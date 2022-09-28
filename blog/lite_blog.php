@@ -76,7 +76,7 @@ function is_json( $string ) {
  */
 
 function ml_get_db_connection(){
-  return mysqli_connect("localhost","pg_auto_dv_live" ,"U9rec6*3","pg_auto_dv_live");
+  return mysqli_connect("localhost","softipi_new-prestine-invoice" ,"51?7iy4>B","softipi_new-prestine-invoice");
 }
 /**
  * Array key find by

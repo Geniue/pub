@@ -2,9 +2,9 @@
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
 $site_title = "Referral Programme";
-$site_description = "Learn how you can earn money toward a free mobile auto detail when you refer your friends to our trusted and recommended service!";
-$site_keywords = "auto detail referral program";
-$canonical = "";
+$site_description = "Learn how you can earn money toward a free upholstery and carpet cleaning when you refer your friends to our trusted and recommended service!";
+$site_keywords = "carpet cleaning referral program";
+$canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
 $og_title = "";
@@ -20,7 +20,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 ?>
 
 <section id="top-banner" class="position-relative short-header" style="min-height: 190px;max-height: 190px">
-  <img class="img img-fluid lazy" data-src="/assets/images/referral-programme.webp" width="1920" height="250">
+  <img class="img img-fluid lazy" data-src="<?= $baseUrl ?>/assets/images/referral-programme.webp" width="1920" height="250">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">

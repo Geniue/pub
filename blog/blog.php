@@ -1,7 +1,8 @@
 <?php
-
 if( !defined('ML_LITE_BLOG') ) die();
+
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
+
 if( isset($_GET['page']) && !empty( cleanSlug(urldecode($_GET['page'])) ) ){
 
 	$bslug = urldecode($_GET['page']);
@@ -63,6 +64,8 @@ if( isset($_GET['page']) && !empty( cleanSlug(urldecode($_GET['page'])) ) ){
 
     }
 
+
+
 	}else{
 
 		$btitle = "Error 404";
@@ -77,9 +80,8 @@ if( isset($_GET['page']) && !empty( cleanSlug(urldecode($_GET['page'])) ) ){
 
 }
 
-
 //print_r($post_array);
-$ml_title = "$b_title | " . ml_get_site_title();
+$ml_title = $b_title." | " . ml_get_site_title();
 
 ?><!doctype html>
 <head>
@@ -162,8 +164,193 @@ ml_header($metas); ?>
       }
     }
 
+	  @font-face {
+		font-family: 'latohairline_italic';
+		src: url('../assets/fonts/lato/lato-thinitalic-webfont.woff2') format('woff2'),
+			url('../assets/fonts/lato/lato-thinitalic-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
 
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latohairline';
+		  src: url('../assets/fonts/lato/lato-thin-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-thin-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latoregular';
+		  src: url('../assets/fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-regular-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latolight_italic';
+		  src: url('../assets/fonts/lato/lato-lightitalic-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-lightitalic-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latolight';
+		  src: url('../assets/fonts/lato/lato-light-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-light-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latoitalic';
+		  src: url('../assets/fonts/lato/lato-italic-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-italic-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latobold_italic';
+		  src: url('../assets/fonts/lato/lato-bolditalic-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-bolditalic-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latobold';
+		  src: url('../assets/fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-bold-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latoblack_italic';
+		  src: url('../assets/fonts/lato/lato-blackitalic-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-blackitalic-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+
+
+
+	  @font-face {
+		  font-family: 'latoblack';
+		  src: url('../assets/fonts/lato/lato-black-webfont.woff2') format('woff2'),
+			  url('../assets/fonts/lato/lato-black-webfont.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+
+	  }
+
+	  .fa{
+		  display:inline-block;
+		  font:normal normal normal 14px/1 latoitalic;
+		  font-size:inherit;
+		  text-rendering:auto;
+		  -webkit-font-smoothing:antialiased;
+		  -moz-osx-font-smoothing:grayscale
+	  }
+	  .fab{
+		  display:inline-block;
+		  font:normal normal normal 14px/1 latobold_italic;
+		  font-size:inherit;
+		  text-rendering:auto;
+		  -webkit-font-smoothing:antialiased;
+		  -moz-osx-font-smoothing:grayscale
+	  }
+	  .far{
+		  display:inline-block;
+		  font:normal normal normal 14px/1 latoblack_italic;
+		  font-size:inherit;
+		  text-rendering:auto;
+		  -webkit-font-smoothing:antialiased;
+		  -moz-osx-font-smoothing:grayscale
+	  }
+	  .fa-fw{
+		  width:1.28571429em;
+		  text-align:center
+	  }
+	  
+	  body, h1, h2, h3, h4, h5 {
+		  font-family: latoregular;
+		  
+	  }
+	  
+	  
+	  h3 font {
+	  	color:#4873b7 !important;
+	  }
+	  
+	  h4 font {
+	  	color:#4873b7 !important;
+	  }
+	  
+	  h2 font {
+	  	color:#4873b7 !important;
+	  }
+	  
+	  h1 font {
+	  	color:#4873b7 !important;
+	  }
+	  
+	  .entry-content font {
+	  	color:#4873b7 !important;
+	  }
+	  
+	  p font font span {
+	  	color: #000 !important;
+		background: #f4f4f4 !important;
+	  }
+	  
+	  p b span {
+	  	font-size: 1.9rem !important;
+	  }
+	  
+	 
+	  .widget-title {
+		  color: #4873b7;
+	  }
   </style>
+	
 <section id="bgimage-blog-detail">
 </section>
 <section id="blog-detail-content">
@@ -183,7 +370,7 @@ ml_header($metas); ?>
                   <h3 class="txt-blue"><?php echo $post_array['title']; ?></h3>
                     <div class="main-content-image">
                        <div class="blog-image blog-thumb">
-                          <img width="100%" src="<?php echo $post_array['image']; ?>" alt="<?php echo $post_array['image_alt']; ?>" title="<?php echo $post_array['image_title']; ?>" style="padding:0;float:none;"/>
+                          <img rel="canonical" width="100%" src="<?php echo $post_array['image']; ?>" alt="<?php echo $post_array['image_alt']; ?>" title="<?php echo $post_array['image_title']; ?>" style="padding:0;float:none;"/>
                        </div>
                     </div>
                     
@@ -194,8 +381,9 @@ ml_header($metas); ?>
             </article>
             <div class="wpdiscuz_top_clearing"></div>
           <!--start comment-->
+			 <br>
 			 <header>
-			 	<div class="callback-form-bar">
+						<div class="callback-form-bar">
                       <h4>Request Carpet and Upholstery Cleaning Now!</h4>
                       <form method="post" class="header-form">
                         <div class="form-group">
@@ -204,43 +392,9 @@ ml_header($metas); ?>
                           <button class="btn btn-success" type="submit" name="request-callback" aria-label="Request callback">Request</button>
                         </div>
                       </form>
+                      <?php if(isset($mail_resp) && !empty($mail_resp)) echo $mail_resp; ?>
                     </div>
 			 </header>
-            <div id="comments" class="comments-area">
-                <i class='fa'>&#xf086;</i> <span><?php //echo count($bcomments_list); ?> Comments</span>
-                <hr>
-                <div class="wpdiscuz-front-actions"></div>
-                <div class="wpdiscuz_clear"></div>
-				        <div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div>
-				        <hr>
-                <h3 id="wc-comment-header">Leave a Comment</h3>
-			          <hr>
-                <div class="wc-form-wrapper wc-main-form-wrapper">
-                  <div style="color: #22ae31;font-size: 18px;"><?php echo isset($success_comment_msg)?$success_comment_msg:(isset($error_comment_msg)?$error_comment_msg:''); ?></div>
-                  <br>
-                  <form action="#comments" method="post">
-                    <div class="wc-field-comment">
-                      <input class="form-control mh-auto h-auto" type="text" name="name" placeholder="Name" required>
-                      <br>
-                      <input class="form-control mh-auto h-auto" type="text" name="website" placeholder="Website" required>
-                      <br>
-                      <textarea class="form-control mh-auto h-auto" rows="4" name="comment" placeholder="Your comments here.." required></textarea>
-                      <br>
-                    </div>
-                    <div class="row">
-                      <div class="col col-12 col-md-6">
-
-                      </div>
-                      <div class="col col-12 col-md-6 text-right">
-                        <button class="btn btn-info" type="submit" name="post_comment">Post Comment</button>
-                      </div>
-                    </div>
-                  </form>
-                  <br />
-                  <br />
-                </div>
-            </div>
-			    <!--end comment-->
          </div>
 
          <!-- #main -->
@@ -271,7 +425,7 @@ ml_header($metas); ?>
                           if($featured_posts->num_rows >0):
                         ?>
                             <section id="lptw-thumbnails-recent-posts-2" class="widget lptw_recent_posts_thumbnails_widget">
-                               <h4 class="widget-title">Featured Posts</h4>
+                               <h4 class="widget-title" style="color: #4873b7;">Featured Posts</h4>
                                <ul class="lptw-recent-posts-thumbnails-widget">
                                   <?php while($row = mysqli_fetch_array($featured_posts)){
                                     $thumb = @get_thumb_file_path_by_image_path($row['image'] );
@@ -303,7 +457,25 @@ ml_header($metas); ?>
    </div>
 </section>
 </div>
-
+<script>
+let a = 0;
+document.querySelectorAll('.text-blue').forEach(function(ele){
+	console.log(a++)
+	$(ele).css("color", "#CD7F34");
+});
+	
+document.querySelectorAll('h3').forEach(function(ele){
+	$(ele).css("font-size", "19px");
+});
+</script>
 <?php ml_footer(); ?>
+
+
+<style>
+ p span font font {
+	color: #000 !important;
+	background: #f4f4f4 !important;
+}
+</style>
 </body>
 </html>

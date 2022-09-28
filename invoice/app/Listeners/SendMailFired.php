@@ -20,6 +20,7 @@ class SendMailFired
         $filename = $event->filename;
         \Mail::send('emails.InvoiceGeneration', ['invoice'=>$invoice], function($message) use ($invoice,$filename) {
             $message->to($invoice['info']['send_to']);
+			$message->cc($invoice['info']['send_copy_to']);
             $message->subject('Invoice');
             $message->attach(public_path("generatepdf/$filename"));
         });

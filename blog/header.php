@@ -27,11 +27,11 @@ global $ml_meta_image;
 global $ml_meta_description;
 global $ml_meta_keywords;
 
-$default_title = "Stuey's Green Auto Clean";
+$default_title = "PristineGreen Upholstery and Carpet Cleaning";
 $default_meta_url = $_SERVER['REQUEST_URI'];
 $default_meta_canonical = $_SERVER['REQUEST_URI'];
 $default_meta_image = $_SERVER['REQUEST_URI'];
-$default_meta_image = "/assets/images/Stuey%27s-Green-Auto-Clean-NY-11385-mobile-auto-detailing-full-service-car-wash-Queens.jpg";
+$default_meta_image = "/assets/images/pristinegreencleaning.jpg";
 $default_meta_description = "";
 $default_meta_keywords = "";
 
@@ -54,14 +54,14 @@ include("blog_head_tags.php" );
 
 </head>
 <body>
-
+	
 	<div id="loading">
 		<div class="startup-loading-content">
 			<div class="loading-icon">
 				<span></span>
 				<span></span>
 				<span></span>
-				<img src="/assets/logo/logo_only_56x56.png" alt="Loading.." width="56" height="56">
+				<img rel="canonical" src="/assets/logo/logo_only_56x56.png" alt="Loading.." width="56" height="56">
 			</div>
 		</div>
 	</div>

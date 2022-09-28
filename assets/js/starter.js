@@ -84,8 +84,8 @@ document.addEventListener("click", function (o) {
           prevArrow: '<i class="fa slick-prev">&#xf104;</i>',
           nextArrow: '<i class="fa slick-next">&#xf105;</i>',
           responsive: [
-            { breakpoint: 768, settings: { slidesToShow: 2 } },
-            { breakpoint: 520, settings: { slidesToShow: 1 } },
+            { breakpoint: 1200, settings: { slidesToShow: 2 } },
+            { breakpoint: 768, settings: { slidesToShow: 1 } },
           ],
         });
             $(".post-slider").slick({

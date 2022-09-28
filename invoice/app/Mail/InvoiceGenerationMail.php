@@ -28,6 +28,6 @@ class InvoiceGenerationMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.InvoiceGeneration');
+        return $this->view('emails.InvoiceGeneration')->subject('Invoice');
     }
 }

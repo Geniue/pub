@@ -2,9 +2,9 @@
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
 $site_title = "FAQ's";
-$site_description = "Learn what customers are asking us about with regard to our mobile auto detailing service in NYC!";
+$site_description = "Learn what customers are asking us about our furntiture and rug cleaning in NYC! Questions such as if we use green upholstery cleaning products and answers such as those describing our carpet steam cleaning methods are within.";
 $site_keywords = "";
-$canonical = "";
+$canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
 $og_title = "";
@@ -22,17 +22,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 <?php
   $accordions = array(
     array(
-      'heading' => 'How long will it take to perform the mobile auto detailing service?',
-      'text' => 'It depends on whether you are getting both interior and exterior detailing. Interior can take about 1.5 hours depending on how dirty the seats, mats, and dashboard are. Exterior usually takes about 1 hour. '
+      'heading' => 'How long will it take to perform the carpet/upholstery cleaning?',
+      'text' => 'Length of job depends on the items cleaned but a regular size couch takes about 1 hour and a 9x12 rug, about 30 minutes. This includes equipment setup. '
     ),
-    array(
-      'heading' => 'Before the technician arrives, is there anything I should do?',
-      'text' => 'Please remove any luggage or belongings from the vehicle before we do an interior auto detail so we can effectively clean all corners and crevices. For external, nothing needs to be done.'
-    ),
+    
     array(
       'heading' => 'Do you clean with solvents?',
-      'text' => 'Our mobile auto detailing methods use only non-toxic products and therefore we do not use solvents im our cleaning work. Solvents are made from petroleum products
-                and release toxic odors." '
+      'text' => 'Our carpet cleaning methods use only non-toxic products and therefore we do not use solvents im our cleaning work. Solvents are made from petroleum products
+                and release toxic odors. We do not clean furniture and rugs that have cleaning code "S," which stands for "Solvent." '
     ),
     array(
       'heading' => 'What do you accept for payment?',
@@ -40,9 +37,9 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
       there is a 2.9% charge for business accounts. All other methods are free.'
     ),
     array(
-      'heading' => 'What method do you use for interior detail cleaning?',
-      'text' => 'For our mobile auto detailing service, we use a 5-step cleaning process, using only non-toxic and green carpet cleaning products. Our process includes a professional 
-                 vacuum, pre-srpay, stain-remover, agitation, and a hot water extraction. We may repeat these steps on certain areas and various stains (like wine stains or pet stains) in order to remove all the discoloration, smells, and contaminants.'
+      'heading' => 'What method do you use for cleaning?',
+      'text' => 'For our carpet cleaning service, we use a 5-step cleaning process, using only non-toxic and green carpet cleaning products. Our process includes a professional 
+                 vacuum, pre-srpay, stain-remover, agitation, and a hot or cold extraction, dependingo n the fabric. We may repeat these steps on certain areas and various stains (like wine stains or pet stains) in order to remove all the discoloration, smells, and contaminants.'
     ),
     array(
       'heading' => 'Are there hidden fees?',
@@ -55,15 +52,21 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
                 we will make it right.'
     ),
     array(
-      'heading' => 'How many hours for my carpet or seats to dry after a shampoo?',
-      'text' => 'Dry time depends on the fabric. Carpets and upholstery generally dry within 3-4 hours. Leather is usable immediately!'
+      'heading' => 'How many hours for my carpet/upholstery to dry?',
+      'text' => 'Dry time depends on the fabric. Carpets and upholstery generally dry within 3-4 hours.'
     ),
     array(
       'heading' => 'Do you have insurance?',
       'text' => 'Yes, we are fully insured.'
     ),
+    
   )
 ?>
+
+
+<style>
+
+</style>
 <section id="offering-services" class="py-6">
   <div class="container">
     <div class="row">
@@ -72,13 +75,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
         <p class="big">These are the most frequently asked questions by customers. Call or email us if you have others!</p>
       </div>
     </div>
+	  <style>
+		  .blue-accordion .accordion-button {
+		  	background-color: #fff;
+			
+		  }
+		  
+		  .accordion-button {
+		  	color: black;
+		  }
+	  </style>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="accordion accordion-flush blue-accordion" id="faq-accordion">
           <?php foreach ($accordions as $index=>$accordion): ?>
             <div class="accordion-item mb-3">
-              <div class="accordion-header rounded-0 bg-blue dark" id="faq_<?= $index+1 ?>">
-                <button class="accordion-button collapsed text-white py-2 px-4 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse_<?= $index+1 ?>" aria-expanded="true" aria-controls="faqCollapse_<?= $index+1 ?>">
+              <div class="accordion-header  rounded-0 bg-blue dark" id="faq_<?= $index+1 ?>">
+                <button class="accordion-button collapsed py-2 px-4 border-0 rounded-7" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse_<?= $index+1 ?>" aria-expanded="true" aria-controls="faqCollapse_<?= $index+1 ?>">
                   <?= $accordion['heading'] ?>
                 </button>
               </div>

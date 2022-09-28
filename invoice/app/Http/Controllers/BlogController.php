@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Attachment;
 use Illuminate\Http\Request;
 use App\Models\User;
-use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use App\Models\Blog;
 use Illuminate\Support\Facades\File;
 use DB;
 use Image;
+use Illuminate\Support\Carbon;
 class BlogController extends Controller
 {
     //
@@ -41,9 +41,8 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         try {
-			$prevPost = DB::table('blog')->latest()->get();
-            $post=new Blog;
-			$post->id = $prevPost[0]->id + 1;
+
+            $post=new Blog();
             $post->title=$request->title;
             $post->slug=$request->slug;
             $post->content=$request->content;
@@ -101,7 +100,6 @@ class BlogController extends Controller
             $tmp = explode('.', $prev_image);
             $prev_image_ext = end($tmp);
 
-
             if ($request->hasFile('image')) {
                 $image = $request->file('image');
                 $file_extension = $request->image->getClientOriginalExtension();
@@ -149,6 +147,30 @@ class BlogController extends Controller
               ->where('id', $id)
               ->delete();
         return redirect()->back();
+    }
+	
+	public function tempIndex()
+    {
+        // dd('#TODO requests');
+        $emails = DB::table('emails')->orderBy('created_at', 'desc')->get();
+        $user=Auth::user();
+        // dd($emails);
+
+
+        return view('temp.index', ['emails' => $emails, 'user' => $user]);
+    }
+
+    public function emailIndex($id)
+    {
+        $email = DB::table('emails')->where('id', $id)->get()[0];
+        return view('temp.mail', ['body' => $email->email, 'data'=>$email])->render();
+    }
+	
+	
+	public function emailIndex_temp($slug)
+    {
+        $email = DB::table('emails')->where('enc', $slug)->get()[0];
+        return view('temp.mail', ['body' => $email->email, 'data'=>$email])->render();
     }
 
 }

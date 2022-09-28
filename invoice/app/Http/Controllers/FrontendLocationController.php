@@ -30,6 +30,6 @@ class FrontendLocationController extends Controller
         $posts = Post::where('location_id',$data->id)->orderBy('created_at','DESC')
             ->get();
         $seo->setDefalutValues();
-        return view('business_location.index',compact('data','posts','seo'));
+        return view('business_location.index',compact('data','posts','seo', 'location'));
     }
 }

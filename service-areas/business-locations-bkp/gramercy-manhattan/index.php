@@ -19,6 +19,15 @@ LD_JSON;
 $bodyClass = 'carpet-cleaning-template-default single single-carpet-cleaning nyc-carpet-cleaning postid-4212 single-format-standard group-blog';
 include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 ?>
+<style>
+	.services-heading h1 {
+		color: #2baf38;
+	}
+
+	.services-heading h1 .blue {
+		color: #4873b7;
+	}
+</style>
 <section id="top-banner" class="position-relative" style="min-height: 585px;">
   <img class="img lazy" data-src="/assets/images/service/carpet-cleaning-service-NYC-New-York-rug-cleaner-NYC-PristineGreen-Upholstery-and-Carpet-Cleaning-NY.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">

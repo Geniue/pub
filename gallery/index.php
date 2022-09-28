@@ -2,9 +2,9 @@
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
 $site_title = "Gallery";
-$site_description = "View our gallery of mobile auto detailing images that were taken from our jobs sites across NYC, including those in Brooklyn, Queens and Manhattan!";
+$site_description = "View our gallery of carpet cleaning and upholstery cleaning images that were tkane from our jobs sites across NYC, including those in Brooklyn, Queens and Manhattan!";
 $site_keywords = "";
-$canonical = "";
+$canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
 $og_title = "";
@@ -34,7 +34,8 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </noscript>
 
 <section id="top-banner" class="position-relative short-header" style="min-height: 190px;max-height: 190px">
-  <img class="img img-fluid lazy" data-src="/assets/images/Stuey%27s-Green-Auto-Clean-NY-11385-mobile-auto-detailing-car-cleaning-near-me-Queens.jpg" width="1920" height="190">
+  <img class="img img-fluid lazy" data-src="/assets/images/carpet-cleaner-service-NYC-gallery.webp
+" width="1920" height="190">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
