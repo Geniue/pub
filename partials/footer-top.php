@@ -5,8 +5,8 @@ background-repeat: repeat-y;">
             <div class="col">
                 <div class="text-info text-center text-white">
                     <h5>Call us for a Free Quote</h5>
-                    <h2><a style="color: white" href="tel:347-871-6530">347-871-6530</a></h2>
-                    <p>Voted 5-Star Top Carpet Cleaner and Upholstery Cleaner in <span class="text-capitalize">NYC, Brooklyn &amp; <br/>Queens</span>. Our customer service hours are 9am to 9pm, 7 days a week.
+                    <h2><a style="color: white" href="tel:347-871-6530">212-920-9013</a></h2>
+                    <p>Voted 5-Star Top Construction and Remodel Services in <span class="text-capitalize">NYC, Brooklyn &amp; <br/>Queens</span>. Our customer service hours are 9am to 9pm, 7 days a week.
                     </p>
                 </div>
             </div>
