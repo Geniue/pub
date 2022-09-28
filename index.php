@@ -128,8 +128,8 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <div class="row h-100">
                 <div class="col-lg-8 banner-content-info">
                     <div class="heading-text w-100">
-                        <h1 class="big" style="color:#2baf38;">Non-Toxic<br>Carpet and Upholstery<br>Cleaning</h1>
-                        <h4>Top Carpet Cleaner Service in NYC</h4>
+                        <h1 class="big" style="color:#2baf38;">Premier <br>Construction<br>& Remodel Services</h1>
+                        <h4>Top Renovation Contractor in NYC</h4>
                         <div class="text-md-left"><a href="tel:3478716530" class="btn center callnow-btn">Call Now</a> <a href="/contact-us#contact-form-fields" class="btn center emailnow-btn">Email Now</a></div>
                     </div>
                 </div>
@@ -144,28 +144,15 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 		color: #00002B;
 	}
 </style>
-<section id="featured">
-  <div class="container">
-    <div class="row">
-      <h3 class="featured-title">Featured In</h3>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row top-margin">
-      <a href="https://www.nytimes.com/wirecutter/guides/how-to-clean-a-sofa/" target="_blank">
-        <img class="lazy" src="<?= $baseUrl ?>/assets/images/nytimes-black.png" data-src="<?= $baseUrl ?>/assets/images/nytimes-black.png" alt="Featured in The new your times" height="81" width="400">
-      </a>
-    </div>
-  </div>
-</section>
+
 <section class="py-5 bg-gray light" id="services">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="mb-3 section-header text-center" style="color:#CD7F32; ">
-                    <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase" style="font-family:latoregular !important">PristineGreen Cleaning</h2>
-                    <h4 class="fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto" style="font-family:latoregular !important">Top-Rated Carpet and Upholstery Cleaning Company in NYC, Brooklyn, Queens, Bronx, <br/>& Long Island</h4>
-                    <h4 class="lh-1-3 lh-md-auto fs-md-5 fs-3 fw-normal" style="font-family:latoregular !important">Offering Both Commercial & Residential Carpet Cleaning Services</h4>
+                    <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Welcome to Reflections<br>Construction</h2>
+                    <h4 class="fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Your Trusted Premier Renovation and Remodel Contractor in NYC, Brooklyn, Queens, Bronx, <br/>& Long Island</h4>
+                    <h4 class="lh-1-3 lh-md-auto fs-md-5 fs-3 fw-normal">Offering a Variety of Construction Services</h4>
                 </div>
                 <div class="row pt-4">
                     <div class="col-12 col-md-4">
@@ -175,8 +162,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
                                 <div
                                     class="accordion-collapse collapse" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#service-accordion">
                                     <div class="accordion-body bg-accordion">
-                                        <p>We provide a variety of upholstery and carpet cleaner services in NYC including sofa cleaning, area rug cleaning, oriental rug cleaning, traditional rug cleaning, mattress cleaning, couch cleaning, armchair
-                                            cleaning, furniture cleaning and more.</p>
+                                        <p>We provide a variety of construction services including home remodeling, bathroom remodel, deck building, garage finishing, fence building, staircase renovation, retaining wall construction, and more! Whatever project you have, we have the professionals who can get the job done perfectly for you!</p>
                                     </div>
                             </div>
                         </div>
@@ -185,18 +171,17 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
                             <div
                                 class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#service-accordion">
                                 <div class="accordion-body bg-accordion">
-                                    <p>We provide our carpet cleaner services to the NYC boroughs and surrouding rea. These areas include Brooklyn, Queens, Manhattan, Staten Island, New Jersey, Long Island, and more</p>
+                                    <p>We provide our construction, remodeling, and renovation services to the NYC boroughs and surrouding rea. These areas include Brooklyn, Queens, Manhattan, Staten Island, New Jersey, Long Island, and more</p>
                                 </div>
                         </div>
                     </div>
 							
                     <div class="mb-4 accordion-item">
-                        <div class="py-2 accordion-header bg-theme-green rounded-0" id="headingThree"><button aria-controls="collapseThree" aria-expanded="false" class="text-white accordion-button border-0 collapsed fw-bold p-2" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">How is your cleaning different?</button></div>
+                        <div class="py-2 accordion-header bg-theme-green rounded-0" id="headingThree"><button aria-controls="collapseThree" aria-expanded="false" class="text-white accordion-button border-0 collapsed fw-bold p-2" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">How is your renovation different?</button></div>
                         <div
                             class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#service-accordion">
                             <div class="accordion-body bg-accordion">
-                                <p>What sets us apart from other NYC carpet cleaning companies is that we only use green and non-toxic products in our upholstery and carpet cleaning services. These products have been certified by the US EPA as part of
-                                    their "Safer Choice" program. We also offer incredible service, hence our average 4.9/5 star rating at all of our locations!</p>
+                                <p>What sets us apart from other contractors is that our process is both professional and personal. We work closely with the clients to create a clear picture of what they intend for their home. Then our highly trained professionals, using cutting-edge equipment and supplies create that vision. What truely differentiates us from our competitors is our commitment to quality. Any square inch of our build that isn't perfect, we will fix immediately, at no extra charge. 100% satisfaction is our requirement!</p>
                             </div>
                     </div>
                 </div>
@@ -205,8 +190,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
                     <div
                         class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#service-accordion">
                         <div class="accordion-body bg-accordion">
-                            <p>If you are looking for a trusted and recommended BYC carpet cleaning company that not only provides incredible service but also uses top=of-the-line green products that are safe for you, your family, and your pets, then
-                                we are the right choice! You can't get better than PristineGreen!</p>
+                            <p>When you choose Reflections Construction, you are not just choosing your standard construction company, you are choosing an elite team of skilled contractors who will transform you space into your dream's fantasy. Our commitment to excellence will ensure your vision is exactly brought to life and our dediation to your satisfaction means the work will be done quickly, and deviations from the vision corrected without charge. We want your repeat business, and the business of your friends and family so we will give you an experience that is ummatched!</p>
                         </div>
                 </div>
             </div>
@@ -246,7 +230,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 		}
 		
 	</style>
-<section class="py-5 bg-gray" id="reviews">
+<!-- <section class="py-5 bg-gray" id="reviews">
     <div class="container">
         <div class="row my-4">
             <div class="col">
@@ -260,24 +244,26 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
         </div>
 		
 		
-		<style>
-			.form-group {
-				display: flex;
-				width: 42%;
-			
-			}
-			
-			.form-control {
-				height: 40px;
-				margin: 0 5px;
-			}
-			
-		</style>
+		
 		
     </div>
 	
-</section>
+</section> -->
 <br>
+
+<style>
+    .form-group {
+        display: flex;
+        width: 42%;
+    
+    }
+    
+    .form-control {
+        height: 40px;
+        margin: 0 5px;
+    }
+    
+</style>
 
 <style>
 * {box-sizing: border-box;}
@@ -343,7 +329,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	</div>
 </header>
 
-<section class="py-5" id="clients">
+<!-- <section class="py-5" id="clients">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -377,7 +363,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
                 </div>
             </div>
         </div>
-</section>
+</section> -->
 
 <style>
 	.shift {
@@ -427,13 +413,9 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 				
                 <div class="card rounded-7 shift" style="">
                     <div class="py-4 card-body px-5">
-                        <h3 class="lh-1-3 lh-md-auto fs-md-5 text-blue fs-2 mb-4">Carpet and Upholstery Cleaning Services</h3>
-                        <p>We love our furniture, whether it’s our couches, carpets, mattresses, or even the interior of our cars. But life happens and spills, dirt, and grime build up over time. Sometimes its even quicker if we have little children and toddlers we take care of! It may even be your office space where the office chairs and wall to wall carpet needs a freshen for your employees or customers. Whatever the issue, our team of professional cleaners have the tools and expertise to clean up all types of stains from pet stains, pesky odors, food stains, juice and milk stains and more! 
-Don’t try to do it yourself! Often cleaning up a stain with household items are non-professional chemicals can leave permeant marks. We often get called to clean up after the DIY attempt and the harsh soaps and cleaning methods have already left unreversible damage.
-</p>
-						<p>People often forget to call carpet cleaning services and upholstery cleaning services when an accident happens or regularly for required maintenance. Don’t wait too long as dirt, stains, and bacteria can travel deeper into the
-                            fabrics and become permanent! Our carpet shampooing and upholstery steam cleaning services, when done within the proper amount of time, transform your furniture from drab dirty to shining, clean, and sanitary! Click here to
-                            get a quote!.</p>
+                        <h3 class="lh-1-3 lh-md-auto fs-md-5 text-blue fs-2 mb-4">Construction and Remodel Services</h3>
+                        <p>The home isn't just a place where one sleeps, eats, and watches TV. The home is a reflection of your ideas, your taste, and your lifestyle. A home accoommodates you, makes you feel comfortable, and tells your guests and loved ones who visit what you care about and how you want to live life. At Reflections Construction, we understand how important a home looks to our customers. With this in mind, we work very closely with our customer to create an accurate vision of what improvement they want for their living space, and then bring it to life!</p>
+						<p>At Reflections Construction, we understand that turning a vision to reality isn't easy. But our proprietry step by step process of remodeling your bathroom, home, or backyard ensures that every element of the client's vision is honored and constructed. Glitches and changes always happen along the way. This is the nature of any constrution process, but our trained team will work with clients to ensure that all changes are approved and any variation from the original plans is corrected. 100% satisfaction from our clients is our number one priority. We understand that we are not just buildling a home, but also a relationship with the client.</p>
 
                     </div>
                 </div>
@@ -470,7 +452,7 @@ Don’t try to do it yourself! Often cleaning up a stain with household items ar
     <div class="container">
         <div class="row">
             <div class="col heading-text">
-                <h3 class="lh-1-3 lh-md-auto fs-md-5 fs-3 text-blue">We offer a variety of rug and furniture cleaning services...</h3>
+                <h3 class="lh-1-3 lh-md-auto fs-md-5 fs-3 text-blue">We offer a variety of construction and remodeling services...</h3>
             </div>
         </div>
         <div class="row">
@@ -479,38 +461,38 @@ Don’t try to do it yourself! Often cleaning up a stain with household items ar
                     <div class="col-md-6">
                         <ul class="offer-1">
                             <li><img src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Carpet Cleaning Services NYC" height="54" width="54" />
-                                <h6><a href="/services/carpet-cleaning/">Carpet Cleaning</a></h6>
+                                <h6><a href="/services/carpet-cleaning/">Home Remodel</a></h6>
                             </li>
                             <li><img src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Upholstery Cleaning NYC" height="54" width="54" />
-                                <h6><a href="/services/upholstery-cleaning/">Upholstery Cleaning</a></h6>
+                                <h6><a href="/services/upholstery-cleaning/">Bathroom Remodel</a></h6>
                             </li>
                             <li><img src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Rug Cleaner NYC" height="54" width="54" />
-                                <h6><a href="/services/area-rug-cleaning/">Area Rug Cleaning</a></h6>
+                                <h6><a href="/services/area-rug-cleaning/">Home Renovation</a></h6>
                             </li>
                             <li><img src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Mattress Cleaning NYC" height="54" width="54" />
-                                <h6><a href="/services/mattress-cleaning/">Mattress Cleaning</a></h6>
+                                <h6><a href="/services/mattress-cleaning/">Deck Builders</a></h6>
                             </li>
                             <li><img src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Oriental and Persian Rug Cleaning NYC" height="54" width="54" />
-                                <h6><a href="/services/oriental-rug-cleaning/">Oriental Rug Cleaning</a></h6>
+                                <h6><a href="/services/oriental-rug-cleaning/">Finish Basement</a></h6>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="offer-2">
                             <li><img rel="canonical" src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Green Carpet Cleaner NYC" height="54" width="54" />
-                                <h6><a rel="canonical" href="/services/green-cleaning">Green Cleaning</a></h6>
+                                <h6><a rel="canonical" href="/services/green-cleaning">Fence Building</a></h6>
                             </li>
                             <li><img rel="canonical" src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Professional Office and Commercial Carpet Cleaning Services" height="54" width="54" />
-                                <h6><a rel="canonical" href="/services/commercial-cleaning">Commercial Cleaning</a></h6>
+                                <h6><a rel="canonical" href="/services/commercial-cleaning">Garage Renovation</a></h6>
                             </li>
                             <li><img rel="canonical" src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Sofa Cleaning NYC" height="54" width="54" />
-                                <h6><a href="/services/couch-cleaning">Couch Cleaning</a></h6>
+                                <h6><a href="/services/couch-cleaning">Retaining Wall Contractor</a></h6>
                             </li>
                             <li><img rel="canonical" src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Vehicle and Auto Cleaning" height="54" width="54" />
-                                <h6><a rel="canonical" href="/services/auto-interior-cleaning">Auto Interior Cleaning</a></h6>
+                                <h6><a rel="canonical" href="/services/auto-interior-cleaning">Staircase Renovation</a></h6>
                             </li>
                             <li><img rel="canonical" src="<?= $baseUrl ?>/assets/images/check-mark-carpet-steam-cleaning-nyc" alt="Pet Odor Removal and Pet Urine Removal Services" height="54" width="54" />
-                                <h6><a rel="canonical" href="/services/pet-stains-odors-cleaning">Pet Stain and Odor Removal</a></h6>
+                                <h6><a rel="canonical" href="/services/pet-stains-odors-cleaning">Framing Construction</a></h6>
                             </li>
                         </ul>
                     </div>
@@ -524,9 +506,10 @@ Don’t try to do it yourself! Often cleaning up a stain with household items ar
     <div class="container">
         <div class="row">
             <div class="text-white text-center col px-7">
-                <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3">Rated 5-Stars Carpet and Upholstery Cleaning in NYC, Brooklyn, & Queens</h2>
-                <p class="mb-4">Whatever rug shampooing or furniture steam cleaning service you need, our technicians have your back in Manhattan, Queens , BK, Long Island, & the Bronx. As a 5-star rated carpet cleaning company,  our services offer you the best in a variety of upholstery cleaning and carpet cleaning.</p>
-                <p>PExperts in carpet, mattress, couch, mattress, rug, upholstery, and even oriental rug cleaning. PristineGreen Cleaning is proud to be a top carpet cleaning service provider in NYC.  Offering a variety of services including rug shampooing and furniture steam cleaning services, we serve our customers in all five boroughs of NYC (Queens, Brooklyn, Manhattan, Bronx & Staten Island) and beyond to Long Island and New Jersey.</p>
+                <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3">Rated 5-Stars Construction Services in NYC, Brooklyn, & Queens</h2>
+                <p class="mb-4">Whatever construction or renovation service you need, our trained professionals have your back in Manhattan, Queens , BK, Long Island, & the Bronx. Our professional services offer you the best in a variety of remodel and construction services.</p>
+                <p>Reflections Construction takes pride in its customer satisfaction and high ratings offering a variety of remodel services. Serving our customers in all five borougns of NYC (Queens, Brooklyn, Manhattan,
+                    Bronx & Staten Island) and beyond to Long Island and New Jersey, we specialise in home remodel, bathroom remodel, finishing basements, garage renovation, staircase renovation, and more!</p>
             </div>
         </div>
     </div>
