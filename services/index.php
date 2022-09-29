@@ -182,8 +182,8 @@ LD_JSON;
                   <div class="row">
                       <div class="col-md-12 col-sm-12 col-xs-12">
                           <div class="heading-text services-heading">
-                              <h1>Services</h1>
-                              <h4>Essential Carpet and Upholstery Cleaning Services</h4>
+                              <h1>Construction Services</h1>
+                              <h4>Essential Construction and Remodel Services</h4>
                           </div>
                       </div>
                       <div class="text-left pb-3">
@@ -210,8 +210,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/carpet-cleaner-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Carpet Cleaning</h4>
-                           <p class="paragraph">As one of the top carpet cleaner services in NYC, we specialize resolving all types of issues including pet stains, pet odors, urine stains, food stains, wine stains and more!</p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Bathroom Remodel</h4>
+                           <p class="paragraph">Every so often, your car needs a full service car wash to protect the paint and finish  and deep clean the interior of your car with professional uphosltery cleaning machines, tools, and chemicals. </p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -221,8 +221,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/upholstery-cleaning-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Upholstery Cleaning</h4>
-                           <p class="paragraph">Using only non-toxic products, we excel in upholstery cleaning Brooklyn, Queens, Manhattan and our other locations across NYC. Using only non-toxic products, we remove built-up grime, dirt, and stains, leaving your upholstery fresh, sanitized, and clean</p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Home Renovation</h4>
+                           <p class="paragraph">Our cars are like second homes so treat your car to an auto spa. Detail, protect, and shine the exterior of your vehicle and pamper the interior fabrics, plastics, and leather to preserve and bring the best out of your vehicle.</p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -232,8 +232,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/rug-cleaning-ny.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Rug Cleaning</h4>
-                           <p class="paragraph">Because of the high foot traffic, area rug cleaning in NYC is an essential task to keep your residential carpets looking clean and presentable. We use top rug cleaning machines to list deeply embedded dirt and stains, without over-wetting the rug or damaging your wood floors. </p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Car Seat Cleaning and Shampoo</h4>
+                           <p class="paragraph">Accidents happen but its important to clean them up promply! Use our car seat cleaning and shampoo service to remove tough stains out of fabric and leather.</p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -243,8 +243,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/mattress-cleaner-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Mattress Cleaning</h4>
-                           <p class="paragraph">Mattresses are where we sleep and are also the home to our beloved cats and dogs. Having a professional mattress cleaner in NYC is an essential contact, as accidents from pets and spilled food can leave your place of sleep unhygienic. We only use non-toxic products when cleaning so you can assured you won’t be exposed to toxic chemicals after the cleaning. </p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Interior Auto Detailing</h4>
+                           <p class="paragraph">Ther interior of a car gets the most abuse from food bits, drink spills, and general dirt and grime. Clean and preserve your interior with an interior detail. We professional upholstery cleaning tools and chemicals to bring your interior back to new!</p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -254,8 +254,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/oriental-rug-cleaner-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Oriental Rug Cleaning</h4>
-                           <p class="paragraph">Oriental rugs can be the centerpiece of our homes, and can often be a large investment. Whatever the spill, stain, or accident left by a child or pet, or simply general wear-and-tear, we are the professional oriental rug cleaner to call. We use the top-of-the-line cleaning methods on your high-end rugs to preserve their texture and color. </p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Hand Car Wash</h4>
+                           <p class="paragraph">Automatic car washes scratch your paint and damage your car! Opt for a hand car wash that preserves the paint, and protects the finish with a was or sealant. </p>
                            </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -265,8 +265,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/green-upholstery-carpet-cleaner-nyc.webp" width="295" height="295" alt="green carpet cleaner service">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Green Cleaning</h4>
-                           <p class="paragraph">We take great pride in using only non-toxic cleaning products that have been certified by the US EPA as part of their “Safer Choice” program. These products are high effective cleaners, sanitizers, and deodorizers but without the toxic chemicals that are unsafe for your children, pets, and family. Have peace of mind and be healthy by choosing us to be your professional steam cleaner for your carpet and upholstery </p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Car Polish and Wax</h4>
+                           <p class="paragraph">The exterior of the car is subjected to the elements 24/7. Every so often, you will need a car polish to remove scratches and swirls, and protect the paint from further damage with a wax. Keep your car looking great for longer with a polish and wax!</p>
                            </a>
                      </div>
 
@@ -277,8 +277,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/commerical-cleaning-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Commercial Cleaning</h4>
-                           <p class="paragraph">Keeping the office clean and hygienic is essential for a productive work environment. Having a professional upholstery steam cleaner and rug shampooer regularly maintain your office’s fabric and leather furniture and carpets will ensure a safe and clean work environment with happy employees!</p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Paint Correction</h4>
+                           <p class="paragraph">Sometimes we get scratches that really diminish from the overall appearance of the vehicle. In this case, get a paint correction treatment which removes scratches and protects your paint from future damage!</p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -288,8 +288,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/sofa-cleaning-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Couch Cleaning</h4>
-                           <p class="paragraph">The couch is the centerpiece of the living room and over time gets covered in dirt, smells, and stains. Hiring a professional sofa cleaner is essential to keeping your home clean and hygienic. Our couch cleaning services include stain removal, odor removal, sanitizing, deodorizing, and more!</p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Car Deep Cleaning</h4>
+                           <p class="paragraph">Cars have a lot of crevices and crannies and its important if you want your car to look fantastic to get a car deep cleaning. This services will deep clean your interior and exterior, and bring it to like new levels! </p>
                         </a>
                      </div>
                      <div class="col-12 col-sm-6 col-md-4 item">
@@ -299,19 +299,8 @@ LD_JSON;
                                  <img class="img img-fluid lazy" data-src="/assets/images/service/auto-interior-detailing-nyc.webp" width="295" height="295">
                               </div>
                            </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Auto Interior Cleaning</h4>
-                           <p class="paragraph">Car owners can spend hours every day in their vehicles, and slowly the car’s interior being its seats, trunk, carpets, mats, and even headliner gather dirt, odors, bacteria, and stains. Getting your car cleaned by an interior auto detailer will make your driving experience more hygienic, and guests will not feel uncomfortable with the dirty upholstery!</p>
-                        </a>
-                     </div>
-					      <div class="col-12 col-sm-6 col-md-4 item">
-                        <a href="/services/pet-stains-odors-cleaning/">
-                           <div class="top-holder">
-                              <div class="img-holder">
-                                 <img class="img img-fluid lazy" data-src="/assets/images/service/pet-stain-odor-cleaning-nyc.webp" width="295" height="295">
-                              </div>
-                           </div>
-                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Pet Stain and<br>Pet Odor Removal</h4>
-                           <p class="paragraph">Our furry friends sometimes make accidents on our clean upholstery and carpet. Our pet odor removal and pet stain cleaning services in NYC remove those stains and smells safetly and effectively!</p>
+                           <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto">Truck Detailing</h4>
+                           <p class="paragraph">Our trucks can get a lot of abuse from showing up at work sites and also having your employees use them all day every day. Preserve your truck with a truck detail and bring your interior and exterior back up to a pristine level!</p>
                         </a>
                      </div>
                   </div>
