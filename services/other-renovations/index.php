@@ -1,9 +1,9 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Mattress Cleaning";
-$site_description = "As a trusted, professional, and recommended upholstery and carpet cleaning service in NYC, we offer mattress cleanings for all sizes of mattresses including twin, full, queen, king, California king and more!";
-$site_keywords = "mattress cleaning NYC, mattress cleaning queens, mattress cleaming brooklyn, mattress cleaning Manhattan";
+$site_title = "Pet Stains and Odor Cleaning";
+$site_description = "Trusted pet stain removal and pet odor removal service in NYC. Commonly used for pet urine removal and pet dander/allergy removal!";
+$site_keywords = "getting urine out of carpet, my carpet smells like dog pee, clean dog pee off carpet, dog urine stain on carpet, remove urine odor from carpet, steam clean cat urine, my rug smells like dog pee, best way to clean puppy pee from carpet, removing human urine from carpet, best steam cleaner for dog urine, pet urine deodorizer, carpet cleaner for urine smell, remove cat urine odor from carpet, best carpet cleaner for pet urine";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -13,7 +13,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -153,15 +153,18 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 		text-align:center
 	}
 </style>
+
+
+
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/mattress-cleaning-min.webp" width="1920" height="590">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/pet-stains-odor-cleaning-min.webp" width="1908" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Mattress Cleaning</h1>
-            <h4>Trusted and recommended mattress cleaner and upholstery cleaner im NYC</h4>
+            <h1>Other Construction <br>& Renovation Services</h1>
+            <h4>Top-rated and trusted general contractor in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -178,33 +181,31 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">PROFESSIONAL MATTRESS CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Other Construction</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            The mattress is one of the most important items in the house, and it the place where people spend half their days! That’s why it is of utmost importance that
-            your mattress is clean and hygienic for your health. Mattresses, over time, can gather large amounts of dust, dirt, bacteria, and oils from simple daily use.
-            They can even have spills from food and pet stains as they also spend much time there. It’s necessary to have the best upholstery cleaner nearby to maintain
-            the health and cleanliness of your mattress so you can sleep well every night.
+            In addition to the traditional construction services, we specialize in a variety of other construction and renovation services as well. Take a look!
           </strong></p>
-		  
+       <p><strong>Staircase Renovation</strong></p>
+        <p>Staircases get a lot of abuse over the years. The stair panels can become worn and squeaky and need replacement, the banister may need extra reinforecement, or the wood on your staircase, like oak or pine, needs a fresh coat of stain or paint. Whatever the project, we can help! We specialize in both wooden staircase and synthetic staircase renovation, 1930s to 70s staircase renovation, stair railing renovation, and under stairs renovation. Luckily, staircases are often made very sturyd and only a staircase refurbishment is needed. We will also go over with you the average cost to remodel a staircase before we begin.</p>
+      <p><strong>Framing Construction</strong></p>
+        <p>Framing is the foundation of the walls and floor and needs to be done right. We specialize in a variety of framing methods, depending on your project. Aside from traditional post and beam timber frame construction, we can do metal stud framing as well. As residential framing contractors, we can help you with a variety of framing projects including roof framing, 	metal deck framing, timber wall construction, and more!</p>
+       <p><strong>Fireplace Remodel</strong></p>
+        <p>When purchasing a new apartment, often remodeling the fireplace can add an entirely new look to the room. We specialize in a variety of fireplace remodels. Stone fireplace makeovers are especially popular, but we also specialize in brick fireplace remodels. The fireplace remodel cost can vary depending on whether the work requires extraction, not just facade work. Our typical modern firepalce remodel also includes changing the mantel.   </p>
+		  <p><strong>Building a Shed</strong></p>
+        <p>Sheds can add much storage and utility space to a home and should not be overlooked! Whether you are looking for a typical garden shed or storage shed, we can custom building whatever you need. We can go over the options with you, choosing either a standard Home Depot shed, plastic shed, metal shed, lean to shed, outdoor wood shed, and more! Whatever you need, we can construct and build it for you!</p>
+		  <p><strong>Pool Building and Construction</strong></p>
+        <p>Swimming pool construction is a speciality in its own. Because of this, we have a dedicated team of expert trademen who specialize in pool building. Swimming pool construction requires many steps which must be done right, or issues can arise in the future. Whether you are looking for a concrete pool, tiled pool, inground pool, or above ground pool, we can build whatever is best for your home. As swimming pool contractors, we know the cost of putting in a pool can be great which is why your team will work with you from the design to build stage to minimize cost while maximing quality and longevity of your new home addition.</p>
+		 <p><strong>Masonry Construction</strong></p>
+        <p>Stone and hard materials add a unique look to a home. At Reflections, we specialize in a variety of masonry services. Whether you have a joisted masonry home and need brick wall constructrion, or you want a living room makeover including a fireplace construction, our team has the tools and experts to get the job done right. As a residential masonry contractor, We often get calls for traditional brick and mortar construction, including brick arches construction. Yet we also get called for concrete masonry construction and hollow block wall construction. Whatever you needs, give us a call! </p>
+		 <p><strong>Sustainable & Green Construction</strong></p>
+        <p>Being green and sistainable is all the rage today, and for good reason! Using green materials or lower toxicity materials in your home building process makes your home safer. Such ways customers like to use green materials is choosing low-VOC paint and safer insulation. Eco-friendly, sustainable, and green building materials won't always also cost more. Green building design to add much benefit and economic value to your home so ask our experts today about our green building methods when you call! </p>
+		  <p><strong>Brownstone Renovation</strong></p>
+        <p>Many of us New Yorkers live in brownstones and they are a specialized building in itself. Understanding how a brownstone was built is imperative when doing renovations. A brownstone renovation can completely update the aesthtics and functionality of your home! We do all types of brownstone upgrades from budget friendly brownstone renovations to brownstone renovation costs which are much higher. Whether you are looking for a bathroom and brownstone kitchen remodel or masonry facade work, our team has the tools and expertise to get the job done right for you!  </p>
 		  <p>
-			  <strong>Deep Cleaning</strong>
-		  </p>
-        <p>
-          Deep cleaning the mattress is essential to lifting the body and pet odors that it may carry from both you and your furry friends who sleep there at night
-          with you. Furniture steam cleaning, which most often uses a hot water extractor, shoots water with cleaning solution into the mattress and then we suck
-          up this dirty water using our industrial wet vacuum. It is essentially doing a cycle of laundry for the material of your mattress. This technique lifts
-          all the dirt, oils, and smells that plague your mattress and bring it back to a hygienic standard.
-        </p>
-		  
-		  <p><strong>Green Cleaning</strong></p>
-        <p>
-          We pride ourselves on being one of the best upholstery cleaning services that uses only non-toxic and green products that have an actual certification, that being of the EPA’s “Safer Choice” program. The mattress is one of the most essential places to use green cleaning products as we spend so much time per day on this piece of furniture and also it is in such close contact to our skin, face, eyes and other sensitive areas. That’s why it is essential that your upholstery cleaning professional uses the right products when cleaning to keep your furniture clean and safe.
-        </p>
-        <p>
-          Contact PristineGreen Upholstery and Carpet Cleaning today to get a free and quick quote on your mattress. Having us, your best upholstery steam cleaning professional, close by will ensure your furniture stays clean, sanitary, and safe!
+          Call Reflections Construction today to learn what packages we offer to bring your home to the next level!
         </p>
       </div>
     </div>
@@ -215,7 +216,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   <div class="container">
     <div class="row">
       <div class="col heading-text">
-        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of rug and furniture cleaning services...</h3>
+        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of construction services...</h3>
       </div>
     </div>
     <div class="row">
@@ -225,26 +226,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress and
-                  Carpet Cleaning</h6>
+                <h6>Home Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Steam
-                  Cleaning Services</h6>
+                <h6>Excavating Contractors</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Professional Bed Cleaning</h6>
+                <h6>House Renovation</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Steam Clean Memory
-                  Foam Mattress</h6>
+                <h6>Concrete Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Professional Mattress Cleaning</h6>
+                <h6>Beam Construction</h6>
               </li>
             </ul>
           </div>
@@ -252,23 +250,22 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Washing Service</h6>
+                <h6>Fireplace Renovation</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Cleaning Service</h6>
+                <h6>Basement Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Stain Removal</h6>
+                <h6>Staircase Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Sanitizing Service</h6>
+                <h6>Professional Home Remodeling</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Cleaning Soiled Mattress</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54"><h6>Best Construction</h6><h6>Best Carpet Cleaner for Pet Odors</h6>
               </li>
             </ul>
           </div>
@@ -283,7 +280,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </section>
 
 <?php
-$pg_service = 'Mattress Cleaners';
+$pg_service = 'Professional Pet Stain & Odor Removal Services';
 $pg_place='';
 ?>
 
@@ -321,7 +318,6 @@ $pg_place='';
 .form-inline button:hover {
   background-color: royalblue;
 }
-
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -379,38 +375,47 @@ $pg_place='';
 	.callback-form-bar {
 		border-radius: 0px !important;
 	}
-
 </style>
 
 <?php
-$pg_service_title = 'mattress cleaning';
+$pg_service_title = 'steam cleaning for pet stains';
 $pg_images = array(
   array(
-    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
+    'url' => 'rsz_curtain_cleaning_croydon.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
-    'alt' => 'Upholstery and Queen Carpet Cleaning',
+    'url' => 'Upholstery-Cleaning-in-Bromley.jpg',
+    'alt' => 'Upholstery Carpet Cleaning',
+    'w' => 395,
+    'h' => 296,
+  ),
+  array(
+    'url' => 'rsz_curtain_cleaning_in_london.jpg',
+    'alt' => 'Queens Carpet Cleaner',
+    'w' => 345,
+    'h' => 259,
+  ),
+  array(
+    'url' => 'rsz_curtain_cleaning_croydon.jpg',
+    'alt' => 'Area Rug Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
-    'alt' => 'Upholstery and Queen Carpet Cleaning',
+    'url' => 'rsz_curtain_cleaning_in_london.jpg',
+    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
-    'alt' => 'Upholstery and Queen Carpet Cleaning',
+    'url' => 'carpet-cleaner-nyc-New-York-best-carpet-steam-cleaner-PristineGreen-Upholstery-and-Carpet-Cleaning-10010.webp',
+    'alt' => 'Carpet shampoo Queens',
     'w' => 395,
-    'h' => 527,
+    'h' => 495,
   ),
-
-
 )
 ?>
 
@@ -421,3 +426,4 @@ include ($_SERVER['DOCUMENT_ROOT'].'/partials/call-section.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/partials/footer-top.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/footer-optimize.php');
 ?>
+

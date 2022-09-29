@@ -13,7 +13,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -160,8 +160,8 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Couch Cleaning</h1>
-            <h4>Top-rated and trusted couch cleaner and sofa cleaner in NYC</h4>
+            <h1>Paint Correction</h1>
+            <h4>Top Paint Correction Mobile Auto Detailer in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -178,22 +178,17 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">COUCH CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Paint Correction</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            The couch is the centerpiece of the home: its where we relax, eat and socialize. It completes the living room, but when it inevitably becomes dirty food spills, pet odors and pet stains, and normal wear and tear, it can make a room feel dingy. PrisitneGreen’s variety of couch cleaning and sofa cleaning services will ensure that your home stays beautiful, providing you with the best couch steam cleaning service in NYC and beyond.
+            We love to have everything neat and clean, including our car's paint. But sometimes, through daily wear and tear and inconsiderate neighbors who scratch and bump your parked car, scratches happen. It's not the end of the world! At Stuey's, we use professional processes and products to perform paint correction to eliminate the scratches to bring the paint back to new life!
           </strong></p>
-        <p>
-          You pick your couch seat all your friends and family when they come over and be comfortable and relaxing in front of the television or when playing with the dog or children. But with time, because of its extensive use, the couch accumulates dirt, grime spills, bacteria, odors and allergens that can affect the overall cleanliness of the home and diminish the hygiene of the living space.
-        </p>
-        <p>
-          PristineGreen offers extensive services to deep clean, sanitize, and deodorize your couches, whether they are big sections, 3-seaters, loveseats, and even simple armchairs part of a set. Our technicians use state-of-the-art machines to shampoo and steam clean the fabric of your couches and sofas to remove stubborn dirt, grime, and odors leaving your couch feeling and smelling fresh. We also offer special disinfecting and sanitizing services, which are very popular for mothers-to-be, owners of newborn babies and small children, and owners of pets (who love them like their own children). We understand that your couch is an investment so we are here to prolong its life and make your home fresh, clean, and odor-free once again! nup
-        </p>
-        <p>
-          Call PristineGreen today to learn what packages we offer to bring your couch back to fresh and clean! We offer several packages as we understand our customers’ needs are different so we are sure you will find the one suitable for you couch or sofa!
-        </p>
+           <p><a href= "/services/mobile-auto-detailing"><strong>Mobile Auto Detailing</strong></a></p>
+        <p>We offer mobile auto detailing which means that you don't have to move from the comfort of your couch to get professional results on your car! We perform expert paint correction on your vehicle, using proven processes and products to first wash the car, remove any abrasions embedded in the paint, then perform paint correction through compounding and polishing, then we always finish up with a wax to seal in those great results. </p>
+           <p><a href= "/services/car-polish-wax"><strong>Car Polish and Wax</strong></a></p>
+        <p>The polishing process is essential to paint correction. When we polish a car to remove scratches, we use a liquid abrasive and remove a very small portion of the finish. This is done by hand or by buffer. If the scratch is deep, we first use a compound which is a more gritty abrasive which will remove more finish. This is followed by a finer abrasive polish to bring out the car's shine. After the polishing process, we wax the car with a carnuba wax either sprayed or applied with a paste. We also offer ceramic coating in replacement of wax. Ceramic coating also protects the paint, and is known to last longer than wax while offering even better hydrophonic properties. Whatever you need, we can do it at Stuey's!</p>
 
       </div>
     </div>

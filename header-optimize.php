@@ -696,7 +696,7 @@ setcookie("close_action", "", $expire,'/')
                                         <div class="myphone">
                                             <h3 class="mb-0 fw-bold" style="color:#76D381">
 												
-												<a class="myphone" href="tel:347-871-6530" style="color:#76D381"><img width="35" height="35" src="https://pristinegreencleaning.com/assets/icons/call.png"> 347-871-6530</a>
+												<a class="myphone" href="tel:347-871-6530" style="color:#76D381"><img width="35" height="35" src="https://pristinegreencleaning.com/assets/icons/call.png"> 212-920-9013</a>
 											</h3>
                                         </div>
                                         
@@ -708,7 +708,7 @@ setcookie("close_action", "", $expire,'/')
                                     <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
                                         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                                             <li class="nav-item dropdown dropdown-mega position-static">
-                                                <a class="nav-link px-4 dropdown-toggle" href="/services/" data-bs-toggle="dropdown" data-bs-auto-close="outside">Cleaning Services</a>
+                                                <a class="nav-link px-4 dropdown-toggle" href="/services/" data-bs-toggle="dropdown" data-bs-auto-close="outside">Construction Services</a>
                                                 <div class="dropdown-menu bg-blue dark rounded-5 px-3 px-md-5 py-4">
                                                 <div class="mega-content ">
                                                     <div class="container-fluid px-0">
@@ -716,22 +716,22 @@ setcookie("close_action", "", $expire,'/')
                                                         <div class="col-12 col-sm-6 col-md-8 py-4">
                                                             <div class="row">
                                                                 <div class="col-md-6">
-                                                                    <h4 class="mb-3 text-white fw-bold">Cleaning Services</h4>
+                                                                    <h4 class="mb-3 text-white fw-bold">Construction & Renovation Services</h4>
                                                                     <div class="list-group px-1 px-md-3">
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/carpet-cleaning">Carpet Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/upholstery-cleaning">Upholstery Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/area-rug-cleaning">Area Rug Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/mattress-cleaning">Mattress Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/oriental-rug-cleaning">Oriental Rug Cleaning</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/home-remodel">Home Remodel</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/bathroom-remodel">Bathroom Remodel</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/home-renovation">Home Renovation</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/deck-builders">Deck Builders</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/finish-basement">Finish Basement</a>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-6">
                                                                     <div class="list-group px-1 px-md-3 mt-0 mt-md-5">
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/green-cleaning">Green Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/commercial-cleaning">Commercial Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/couch-cleaning">Couch Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/auto-interior-cleaning">Auto Interior Cleaning</a>
-                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/pet-stains-odors-cleaning" style="padding-top: 13px;">Pet Stains And Odors Cleaning</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/fence-building">Fence Building</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/garage-renovation">Garage Renovation</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/retaining-wall-contractor">Retaining Wall Contractor</a>
+																		 <a class="list-group-item bg-blue dark text-white border-0" href="/services/framing-construction">Framing Construction</a>
+                                                                        <a class="list-group-item bg-blue dark text-white border-0" href="/services/other-renovations">Other Renovations</a>
                                                                     </div>
                                                                 </div>
                                                             </div>

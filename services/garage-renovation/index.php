@@ -1,9 +1,12 @@
+
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Oriental Rug Cleaning";
-$site_description = "As a top rated carpet cleaner in NYC, we offer oriental rug cleaning services. We use the top of th eline techniques and products to ensure the healthy and longevity of your prized rugs and carpets, whether they be domestic or foriegn and made from a varity of fabrics including wool, cotton, rayon, viscose, polyester, silk and more!";
-$site_keywords = "oriental rug cleaning, oriental carpet cleaning, oriental rug cleaner NYC, oriental carpet cleaner NYC, oriental rug shampoo, oriental rug steam cleaning, oriental rug deep cleaning";
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
+
+$site_title = $scc;
+$site_description = "learn how we use only green and non-toxic cleaning in our upholstery cleaning and carpet cleaning services";
+$site_keywords = "rug cleaning ny, green and non-toxic oriental rug cleaner, green and non-toxic sofa cleaning nyc, green and non-toxic area rug cleaning nyc, green and non-toxic carpet cleaner service, green and non-toxic ny carpet cleaning, green and non-toxic carpet cleaner nyc, green and non-toxic couch cleaner nyc, green and non-toxic rug cleaner nyc, green and non-toxic upholstery cleaning brooklyn, green and non-toxic furniture cleaning nyc, green and non-toxic carpet cleaner companies near me, green and non-toxic sofa cleaning brooklyn, green and non-toxic mattress cleaner nyc, green and non-toxic upholstery cleaning nyc, green and non-toxic rug clean service, green and non-toxic couch cleaning services, green and non-toxic rug cleaner brooklyn, green and non-toxic couch cleaner brooklyn, green and non-toxic mattress cleaning brooklyn, green and non-toxic area rugs cleaning, green and non-toxic carpet cleaner brooklyn, green and non-toxic furniture cleaning brooklyn, green and non-toxic rug cleaner, green and non-toxic clean area rug near me, green and non-toxic upholstery cleaning queens, green and non-toxic carpet cleaning professional, green and non-toxic the best carpet cleaning, green and non-toxic rug cleaner queens, green and non-toxic best upholstery cleaning, green and non-toxic carpet cleaner queens, green and non-toxic upholstery steam cleaning, green and non-toxic best carpet steam cleaner, green and non-toxic carpet cleaner, green and non-toxic carpet cleaning commercial, green and non-toxic carpet shampoo cleaning, green and non-toxic carpet shampoo near me, green and non-toxic couch cleaner, green and non-toxic couch steam cleaning, green and non-toxic furniture cleaning, green and non-toxic furniture steam cleaning, green and non-toxic mattress cleaner, green and non-toxic rug shampoo near me, green and non-toxic sofa cleaning, green and non-toxic steam cleaner near me, green and non-toxic upholstery cleaning, green and non-toxic couch cleaner queens, green and non-toxic furniture cleaning queens, green and non-toxic mattress cleaner brooklyn, green and non-toxic mattress cleaner queens, green and non-toxic sofa cleaner queens, green and non-toxic sofa cleaning queens";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -154,14 +157,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/oriental-rug-cleaner-nyc-min.webp" width="1920" height="590">
+  <img class="img lazy" data-src="/assets/images/green-carpet-cleaner-nyc.jpg" style="object-fit: cover !important;">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Oriental Rug Cleaning</h1>
-            <h4>Top-rated oriental rug cleaner and Persian rug cleaner in NYC</h4>
+            <h1>Garage Renovation</h1>
+            <h4>Trusted and recommended garage renovation service in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -178,27 +181,27 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">ORIENTAL RUG CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Garage Renovation</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            Everyone loves the feel and look of a beautiful rug. They had color and texture to any room’s décor. For those that really want impress guests and
-            have the highest level of luxury, they purchase oriental rugs and Persian rugs. These rugs, either new or vintage, are made in many places around
-            the world, but mostly in the far east, in countries in Asia as Iran, Pakistan, India, Russia, China, Nepal, Turkey, and Tibet. They are hand-knotted
-            and made from a variety of materials as goat wool, sheep wool, silk, and silk blends. These rugs can be very expensive, so just like an expensive car,
-            professional Persian rug cleaning, with the proper tools and techniques, is essential.
+          The garage isn't just a place to park the car. It can be transformed into a work space, play area, or even a living space! To keep it as bare concrete and no additions is just a waste of space. As professional garage builders at Reflections Construction, we know how to go from the design build stage to the finished product, minimizing cost, and naximizing amenities and addons!
           </strong></p>
-        <p>
-          If you choose to decorate your home with one of these incredible rugs, to is essential to maintain its color and texture with regular cleanings. These rugs should not be cleaned in the same way as a regular domestic rug would be cleaned. These rugs should be cleaned with the proper chemicals and oriental rug cleaning services that will preserve the color and feel.
+       
+		  <h3> <strong>Garage Remodeling</strong> </h3>
+			<p>There are an endless amount of renovations and remodels that can achieved in the garage. What are you looking to use it for? Will you park your car in the garage? Do you want to turn it into a living sapce? These are some of the questions that our design build team at Reflections Construction will ask the client. Common garage renovations include adding a flooring, painting the walls, adding insulation, lofting the garage, adding windows, and more!
+        </p>
+         <p>
+          <h6><strong>Garage Construction</strong> </h6>
+			<p> Building a garage on your home can add enormous economic value to your property. Not only have to created a convenient place to park your car, but the garage can also be used for a variety of purposes. Building a garage can be a daunting task, but our expert garage builders at Reflections Construction will move you through the design build process, from laying the foundation, to building the walls and ceiling, to adding the finishes. We have much experience in garage construction and garage renovation and can give you many ideas and the average cost of garage construction so you can understand what you can acheive within your budget. 
+        </p>
+         <h3> <strong>Garage Renovation Cost</strong> </h3>
+			 <p> The cost of your garage can depend on a variety of factors. How extensively the garage is renovated, the type of materials used. and the fixtures that are chosen for the build. At Reflections we have extensive experience in garage renovation and garage building and can guide you to choose certain design build elements which will reduce your cost and maximize your build. Such factors that can increase the price of a build are high-end insulation, expensive types of flooring, and complicated electrical work.
         </p>
         <p>
-          You might be asking yourself, “where to get oriental rugs cleaned?” At PristineGreen, we are proud to offer NYC our professional oriental rug cleaning services, using the top of the line equipment and chemicals to tackle whatever cleaning job you have. Whether it be specific pet stains, wine stains, food spills, or simple dirt and grime removal from general wear and tear, we have the proper technique and procedures to get this job done right for you! In order to provide you with the best oriental rug cleaning, these rugs require a two week process which includes a free pickup and delivery of the rug
+          Call Reflections Construction today to learn how we can transform your garage!.
         </p>
-        <p>
-          Contact PristineGreen Upholstery and Carpet Cleaning today to get a free quote on your Persian or oriental rug cleaning in NYC. These rugs are huge investments so protect them with our professional services!
-        </p>
-
       </div>
     </div>
   </div>
@@ -208,7 +211,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   <div class="container">
     <div class="row">
       <div class="col heading-text">
-        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of rug and furniture cleaning services...</h3>
+        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of garage buildling and construction services...</h3>
       </div>
     </div>
     <div class="row">
@@ -217,57 +220,55 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
           <div class="col-md-6">
             <ul class="offer-1">
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Oriental Rugs and
-                  Carpets</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Garage Remodel</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Persian Rug Restoration</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Home Construction</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Persian Rug Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Building a Shed</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Professional Silk
-                  Rug Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Remodeling Contractors</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Modern Rug Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Sustainable Building</h6>
               </li>
             </ul>
           </div>
           <div class="col-md-6">
             <ul class="offer-2">
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Turkish Rug Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Building Foudation</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Oriental Carpet Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Concrete Construction</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Vintage Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Retaining Wall Contractors</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Specialist Rug Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Construction Cost</h6>
               </li>
               <li>
-                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Silk Carpet Cleaning</h6>
+                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Masonry Construction</h6>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-md-4 right-image">
-        <img class="img-fluid lazy" data-src="<?= $baseUrl ?>/assets/images/Green-Carpet-Cleaning-Van-NYC-small.webp" alt="" width="420" height="221" />
+        <img class="img-fluid lazy" data-src="/assets/images/Green-Carpet-Cleaning-Van-NYC-small.webp" alt="" width="420" height="221" />
         <a href="tel:3478716530" class="btn callnow-btn center offer-call">Call Now</a>
       </div>
     </div>
@@ -275,7 +276,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </section>
 
 <?php
-$pg_service = 'Professional Oriental Rug Cleaners';
+$pg_service = 'Professional Green and Non-Toxic Cleaners';
 $pg_place='';
 ?>
 
@@ -373,31 +374,31 @@ $pg_place='';
 </style>
 
 <?php
-$pg_service_title = 'oriental rug and persian cleaning';
+$pg_service_title = 'green cleaning';
 $pg_images = array(
   array(
-    'url' => 'services/oriental-rug-cleaning/Queens-Carpet-Cleaner-Service-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-residential-carpet-cleaning.jpg',
+    'url' => 'services/green-cleaning/carpet cleaner nyc Queens NY 11385 green upholstery cleaning NYC PristineGreen Upholstery and Carpet Cleaning.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/oriental-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
+    'url' => 'services/green-cleaning/carpet cleaner for urine smell Queens best carpet cleaner for pet urine PristineGreen Upholstery and Carpet Cleaning NY 11385.jpg',
     'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 296,
   ),
   array(
-    'url' => 'services/oriental-rug-cleaning/11385-carpet-cleaner-brooklyn-NY-Queens-rug-cleaner-brooklyn-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
+    'url' => 'services/green-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
     'alt' => 'Queens Carpet Cleaner',
     'w' => 345,
     'h' => 259,
   ),
   array(
-    'url' => 'services/oriental-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
-    'alt' => 'Upholstery Carpet Cleaning',
+    'url' => 'services/green-cleaning/1608ae8f628353.jpg',
+    'alt' => 'Area Rug Cleaning',
     'w' => 395,
-    'h' => 296,
+    'h' => 527,
   ),
 )
 ?>

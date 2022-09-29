@@ -1,9 +1,9 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Auto Interior Cleaning";
-$site_description = "We offer auto interior cleaning for all types of vehicles in NYC, whether it be vans, SUVs, or compact cars. We clean the entire interior upholstery using professional carpet cleaning methods. ";
-$site_keywords = "auto interior cleaning, auto seat cleaning, auto interior car cleaning, auto seat spot clean, auto interior upholstery cleaning";
+$site_title = "Oriental Rug Cleaning";
+$site_description = "As a top rated carpet cleaner in NYC, we offer oriental rug cleaning services. We use the top of th eline techniques and products to ensure the healthy and longevity of your prized rugs and carpets, whether they be domestic or foriegn and made from a varity of fabrics including wool, cotton, rayon, viscose, polyester, silk and more!";
+$site_keywords = "oriental rug cleaning, oriental carpet cleaning, oriental rug cleaner NYC, oriental carpet cleaner NYC, oriental rug shampoo, oriental rug steam cleaning, oriental rug deep cleaning";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -13,13 +13,12 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
 include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 ?>
-
 <style>
 .bg-blue.dark {
 		background-color: #2baf38
@@ -155,14 +154,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/auto-interior-cleaning-nyc-min.webp" width="1920" height="590">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/oriental-rug-cleaner-nyc-min.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Auto Interior Cleaning</h1>
-            <h4>Get your mats, seats, carpet, trunk, and headliner professionally steam cleaned!</h4>
+            <h1>Home Renovation</h1>
+            <h4>Top Rated Home Renovation Contractor NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -179,29 +178,26 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">AUTO INTERIOR CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Home Renovation</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            Other than the bedroom and its mattress, the car and its car seats may be one of the most lived in spaces in many New Yorkers’ lives. Whether you are driving
-            down the streets of Manhattan for shopping with the girlfriends or roaming around Brooklyn, or Queens for that great restaurant with the children, the car
-            gets a lot of wear and tear. Stains from food, spills from beverages (hopefully not wine stains), and just regular dirt and grime tracked in from the
-            New York sidewalks, the car can accumulate much dirt and bacteria and can become unhygienic. Let’s not forget our dogs (and sometimes cats) who come along
-            with us leaving dog hair, pet stains, and pet odors behind
+            Every few years, in order to stay up-to-date and comofortable, a home renovation is often needed. Whether it is a small project like refinishing floors and replacing fixtures or larger jobs like building a deck or a kitchen remodel, we have the tools and expert knowledge to get the done right at a good cost. Learn more about what kind of home renovation services we have!
           </strong></p>
+        <p><strong>Kitchen Contractor</strong>
+            <p>Remodeling the kitchen is a common home upgrade and one that can add a lot of economic value, utility, and comfort to one's home. Whether you are looking for a simple kitchen makeover or a deep gut kitchen renovation, we have your back! The average kitchen remodel cost depends on a variety of factors including supplies and design. Galley kitchen remodels, for example are most expensive than ikea kitchen remodels or small kitchen remodels. Often the first thing to contract is a kitchen cabinet remodel which may be all that is needed to really make your kitcheb look like new!
+			 </p>
+       <p><strong>Home Additions</strong>
+           <p>Adding an addition onto your home can be a big project but the rewards are great! It adds a lot of economic value to your home as well as creates new living spaces for you to enjoy. More simple home additions include a sun room addition, a front porch addition, or a garage addition, whereas larger projects would include master bedroom additions, 20x20 room additions, and of course second story additinos. Whatever you want to add on to your home, not to worry! Our professioal expert team can get the job done right for you!
+			 </p>
+		  <p><strong>Home Improvement Cost</strong>
+           <p>The cost of home improvement can vary depending on the size of the project. Whether you are looking for a general contractor or home renovation company to perform a small kitchen renovation or a bathroom remodel versus basement construction, steel frame construction, or custom home building, we have the tools and expertise to complete the job. Prices will of course vary, sometimes dramatically depending on the project, but we will do our best to help you maximize your project while minimizing your expenditure. 
+			 </p>
         <p>
-          It is therefore essential that you consider the car interior, whether its fabric or leather, just like the upholstery in your home. Auto car interior cleaning is an essential part of a healthy and hygienic lifestyle. Exposing yourself to accumulated dirt and odors isn’t pleasant and also leaves a bad impression to guests. It is essential that you have the best carpet and upholstery cleaner at your fingertips to ensure your seats, mats, carpet, trunk and headliner (roof) stay pristine and clean.
+          Contact Reflections Construction today to learn more about our home renovation services and how we can help you build the project of your dreams!
         </p>
-        <p>
-          At PristineGreen, we offer various services to deep clean and auto interior shampoo all elements of your auto’s interior. In the same way that we use our special steam cleaning, sanitizing, and deodorizing methods on your couches and carpets, we use the same on your auto’s fabric interior. If your interior is leather, your seats and side panels will receive specially-formulated cleansing and conditioning to both clean and ensure that the leather stays supple and soft. You will be getting the best upholstery cleaning for your auto’s interior. Whether you are plagued with pet stains, food stains, or various odors or pet hair, our powerful extractors and cleaning techniques will leave your interior auto upholstery looking and smelling fresh!
-        </p>
-        <p>
-          We understand that many parents call us for auto interior cleaning for the same reasons they call us for professional furniture steam cleaning: We are highly rated and use only green and non-toxic products. All of our products are certified by the US EPA as “Safer Choice,” which means that you feel comfortable knowing that your children, who will be riding in the auto interior, will only be exposed to green and non-toxic products. We also get requests to specifically clean car seats for infants and young children because our products are deemed “Safer Choice” by the EPA. Even passionate pet owners call us for their auto interior cleaning to ensure that their pets stay safe with our non-toxic and green products
-        </p>
-        <p>
-          Call PristineGreen now to learn more about how we can restore your auto interior, leaving it clean, deodorized and sanitized! We are not only the best upholstery cleaning service and carpet steam cleaner but also your choice for professional auto interior detailing.
-        </p>
+
       </div>
     </div>
   </div>
@@ -211,7 +207,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   <div class="container">
     <div class="row">
       <div class="col heading-text">
-        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of rug and furniture cleaning services...</h3>
+        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of home renovation services...</h3>
       </div>
     </div>
     <div class="row">
@@ -221,25 +217,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Car Interior Shampoo Service</h6>
+                <h6>Bathroom Renovations</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Interior Car Seat
-                  Cleaning</h6>
+                <h6>Kitchen Remodeling</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Interior Car Wash</h6>
+                <h6>Building a Deck</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Complete Interior
-                  Car Detailing</h6>
+                <h6>Excavating Contractors</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Auto Carpet Cleaning</h6>
+                <h6>House Renovation</h6>
               </li>
             </ul>
           </div>
@@ -247,26 +241,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Car Interior
-                  Detailing Service</h6>
+                <h6>Shower Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Interior Car Cleaning</h6>
+                <h6>Tub to Shower Conversion</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Extreme Interior
-                  Car Cleaning</h6>
+                <h6>Basement Renovations</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Deep Car Cleaning
-                  Services</h6>
+                <h6>Concrete Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Interior Car Detailing</h6>
+                <h6>Demolition Contractor</h6>
               </li>
             </ul>
           </div>
@@ -281,7 +272,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </section>
 
 <?php
-$pg_service = 'Car Interior Cleaning';
+$pg_service = 'Professional Oriental Rug Cleaners';
 $pg_place='';
 ?>
 
@@ -319,8 +310,6 @@ $pg_place='';
 .form-inline button:hover {
   background-color: royalblue;
 }
-
-
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -378,59 +367,34 @@ $pg_place='';
 	.callback-form-bar {
 		border-radius: 0px !important;
 	}
-
 </style>
 
 <?php
-$pg_service_title = 'car interior cleaning';
+$pg_service_title = 'oriental rug and persian cleaning';
 $pg_images = array(
   array(
-    'url' => 'services/auto-interior-cleaning/11385-car-detailing-seat-shampoo-PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-internal-car-wash-NY.jpg',
+    'url' => 'services/oriental-rug-cleaning/Queens-Carpet-Cleaner-Service-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-residential-carpet-cleaning.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-11385-auto-interior-cleaning-NY-full-car-interior-detail-near-me.jpg',
+    'url' => 'services/oriental-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
     'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 296,
   ),
   array(
-    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-Queens-NY-11385-interior-car-detailing-near-me-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
+    'url' => 'services/oriental-rug-cleaning/11385-carpet-cleaner-brooklyn-NY-Queens-rug-cleaner-brooklyn-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
     'alt' => 'Queens Carpet Cleaner',
     'w' => 345,
     'h' => 259,
   ),
   array(
-    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-11385-auto-interior-cleaning-NY-full-car-interior-detail-near-me.jpg',
-    'alt' => 'Area Rug Cleaning',
+    'url' => 'services/oriental-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
+    'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
-    'h' => 527,
-  ),
-  array(
-    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-NY-deep-car-interior-cleaning-near-me-11385-auto-interior-cleaning.jpg',
-    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
-    'w' => 395,
-    'h' => 527,
-  ),
-  array(
-    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-Queens-interior-detailing-services-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-NY.jpg',
-    'alt' => 'Carpet shampoo Queens',
-    'w' => 395,
-    'h' => 495,
-  ),
-  array(
-    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-interior-car-seat-cleaning-near-me-Queens-NY-11105-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
-    'alt' => 'Carpet shampoo Queens',
-    'w' => 395,
-    'h' => 495,
-  ),
-  array(
-    'url' => 'services/auto-interior-cleaning/Queens 11385 NY PristineGreen Upholstery and Carpet Cleaning auto interior cleaning auto carpet cleaner near me.jpg',
-    'alt' => 'Carpet shampoo Queens',
-    'w' => 395,
-    'h' => 495,
+    'h' => 296,
   ),
 )
 ?>
@@ -442,4 +406,3 @@ include ($_SERVER['DOCUMENT_ROOT'].'/partials/call-section.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/partials/footer-top.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/footer-optimize.php');
 ?>
-

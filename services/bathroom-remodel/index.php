@@ -1,9 +1,10 @@
 <?php
+
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Commercial Cleaning";
-$site_description = "At PristineGreen, a trusted and recommended carpet cleaner in NYC, we offer commerical carpet cleaning services in NYC, helping you keep your business and office rugs and upholstery pristine clean!";
-$site_keywords = "commercial carpet cleaning, commerical upholstery cleaning, office carpet, office upholstery cleaning";
+$site_title = "Rug Cleaning";
+$site_description = "Top-Rated rug cleaner in NYC providng a variety of carpet cleaning services. We clean all types of rugs, whether they be cotton, polyester, silk, wool, area rugs, oriental rugs, wall-to-wall rugs, and more and provide rug steam cleaning and rug shampooing services!";
+$site_keywords = "area rug cleaning nyc, carpet cleaner service, carpet cleaner nyc, rug cleaner nyc, rug cleaner brooklyn, area rugs cleaning, carpet cleaner brooklyn, rug cleaner, clean area rug near me, carpet cleaning professional, the best carpet cleaning, rug cleaner queens, carpet cleaner queens, best carpet steam cleaner, carpet cleaner, carpet cleaning commercial, carpet shampoo cleaning, carpet shampoo near me, rug shampoo near me, steam cleaner near me";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -13,7 +14,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -154,14 +155,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/commercial-cleaning-nyc-min.webp" width="1920" height="590">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/rug-cleaner-nyc-min.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Commercial Cleaning</h1>
-            <h4>Keep your offices, businesses, and hotels clean with professional carpet cleaning services in NYC</h4>
+            <h1>Bathroom Remodel</h1>
+            <h4>Top-rated and trusted bathroom remodeling in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -173,35 +174,29 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   </div>
 </section>
 
+
 <section id="main-content-cleaning" class="py-7 main-content-cleaning-service">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">COMMERCIAL CLEANING SERVICES</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Bathroom Remodel</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            PristineGreen Upholstery and Carpet Cleaning cares about our commercial cleaning clients. We strive to offer the best service to these organizations, offices, workspaces, hotels, etc, using only non toxic products and extremely effective results.
+           The bathroom is one of the miost intimate spaces of our home. Its a place of comfort and respite from the challenges of the day and life. It's also one of the places in the home where the owner can really express her style and way of livig. At Reflections Construction, we understand that a bathroom remodel isn't just a practical project, but a work of art. With this in mind, we help customers transform their bathrooms into spaces they adore and cherish. 
           </strong></p>
-		  
-		  
-		  <p><strong>Scheduled Maintenance</strong></p>
-        <p>
-          Regularly cleaning your furniture and carpets extends these items’ lives, saving you money and giving great first impressions along the way. Setting up an affordable carpet shampooing schedule or furniture steam cleaning schedule is easy. This will ensure your furniture stays tip-top for the longest time and your office is also clean, hygienic, and enjoyable to work in.
+       <p><strong>Bathroom Renovations</strong></p>
+        <p>Every bathroom renovation is different. The scope can be large, from a full gut remodel to small changes like upgrading the vanity, toilet, or other bathroom fixtures. The scope of the project depends on both the budget and vision of the customer. Home builders often want projects that are large, but at Reflections Construction, we understand that bigger is not necessarily better, so whatever you need, we are willing to help you achieve your goal!</p>
+         <p><strong>Bathroom Remodel Cost</strong></p>
+        <p>The cost of a bathroom remodel relies on a variety of factors. Some of these factors include moving or altering plumbing, adapting electrical circuits, cost and quality of supplies like tiles and fixtures, and whether a demolition team will be necessary before beginning the project. When we work with customers, cost is always an issue, but our goal isn't to spend more. OUr goal is to help our customers acheive as much as possible within their budget. </p>
+         <p><strong>Custom Home Builders</strong></p>
+        <p>All of the bathroom remodel projects we do are custom, designed and built from the ground up. If custom cabinetry is needed, we can build that from scratch. If a specific tile design is desired, we can have that manufactured for you. When working with Reflections Construction, there are no limits to what you can do with your project. As a custom home building company, we strive to provide you with a reflection of exactly your vision for your new bathroom remodel. </p>
+		  <p>
+          Call Reflections Construction today to learn what packages we offer for your bathroom remodel!
         </p>
-        <p><strong>Great Impression</strong></p>
-        <p>
-          At PristineGreen, we understand that having a clean business environment is key to keeping employees and new customers happy, giving great first impressions. We have worked with many professional office spaces like dental waiting areas, lawyers’ offices, hotel lobbies and hotel rooms, and much more. We offer regular and one time cleaning services for these organizations.
-        </p>
-		  <p><strong>Quality Service and Machines</strong></p>
-        <p>
-          We use the top of the line machines when tackling every job. Our technicians are skilled in all types of stain and odor removal using only non toxic and green products, so that you can enjoy your workspace and give great first impressions to customers and clients. Having clean couches, chairs, computer chairs, waiting rooms upholstery is necessary to show employees and clients that you are a successful and thriving business.
-        </p>
-		  
-		  <p>Call us today to learn more how we can bring you to Pristine! We can give you instant quotes and offer you affordable pricing. Look forward to hearing from you!
-</p>
+
       </div>
     </div>
   </div>
@@ -211,7 +206,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   <div class="container">
     <div class="row">
       <div class="col heading-text">
-        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of rug and furniture cleaning services...</h3>
+        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of bathroom remodel services...</h3>
       </div>
     </div>
     <div class="row">
@@ -221,25 +216,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Commerical Carpet
-                  Cleaning Service</h6>
+                <h6>Bathroom Renovations</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Office Carpet Cleaning</h6>
+                <h6>Small Bathroom Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Commerical Carpet
-                  Steam Cleaner</h6>
+                <h6>Retiling Bathroom</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Commercial Spot Extractor</h6>
+                <h6>Bathroom Home Improvement</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Restaurant Carpet Cleaning</h6>
+                <h6>Bath Renovation</h6>
               </li>
             </ul>
           </div>
@@ -247,26 +240,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Commerical Shampooers</h6>
+                <h6>Tub to Shower Conversion</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Business Carpet Cleaning</h6>
+                <h6>Bathroom Shower Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Industrial Steam
-                  Carpet Cleaning</h6>
+                <h6>Bathroom Makeover</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Commerical Carpet and
-                  Upholstery Cleaning</h6>
+                <h6>Home Depot /<br>Lowes Bathroom Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Industrial Carpet
-                  Cleaning</h6>
+                <h6>Small Bathroom Renovations</h6>
               </li>
             </ul>
           </div>
@@ -278,13 +268,15 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
       </div>
     </div>
   </div>
+
 </section>
 
-<?php
-$pg_service = 'Professional Commercial Cleaners';
-$pg_place='';
-?>
 
+<?php
+$pg_service = 'Professional Area Rug Cleaners';
+$pg_place='in NYC';
+
+?>
 <style>
 * {box-sizing: border-box;}
 
@@ -319,6 +311,8 @@ $pg_place='';
 .form-inline button:hover {
   background-color: royalblue;
 }
+
+
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -377,34 +371,51 @@ $pg_place='';
 		border-radius: 0px !important;
 	}
 </style>
-
 <?php
-$pg_service_title = 'commercial cleaning';
+$pg_service_title = 'rug cleaning';
 $pg_images = array(
   array(
-    'url' => 'services/commercial-cleaning/carpet-cleaner-nyc-New-York-best-carpet-steam-cleaner-PristineGreen-Upholstery-and-Carpet-Cleaning-10010.webp',
+    'url' => 'services/area-rug-cleaning/carpet-cleaning-NYC-Queens-NY-11385-carpet-cleaner-service-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/commercial-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
+    'url' => 'services/area-rug-cleaning/carpet-cleaner-service-rug-cleaning-NYC-10010-NY-PristineGreen-Upholstery-and-Carpet-Cleaning-New-York.jpg',
     'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 296,
   ),
   array(
-    'url' => 'services/commercial-cleaning/10010-NY-sofa-cleaning-NYC-New-York-couch-cleaner-NYC-PristineGreen-Upholstery-and-Carpet-Cleaning-min.webp',
+    'url' => 'services/area-rug-cleaning/carpet-cleaner-nyc-NY-PristineGreen-Upholstery-and-Carpet-Cleaning-10010-New-York-professional-rug-cleaner-NYC.jpg',
     'alt' => 'Queens Carpet Cleaner',
     'w' => 345,
     'h' => 259,
   ),
   array(
-    'url' => 'services/commercial-cleaning/11105 best commercial steam cleaning PristineGreen Upholstery and Carpet Cleaning Queens NY commercial carpet cleaning service-min.jpg',
+    'url' => 'services/area-rug-cleaning/Area-Rug-Cleaning-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-NY.jpg',
     'alt' => 'Area Rug Cleaning',
     'w' => 395,
     'h' => 527,
-  )
+  ),
+  array(
+    'url' => 'services/area-rug-cleaning/Queens-Carpet-Cleaner-Service-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-residential-carpet-cleaning.jpg',
+    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
+    'w' => 395,
+    'h' => 527,
+  ),
+  array(
+    'url' => 'services/area-rug-cleaning/11385-carpet-cleaner-brooklyn-NY-Queens-rug-cleaner-brooklyn-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
+    'alt' => 'Carpet shampoo Queens',
+    'w' => 395,
+    'h' => 495,
+  ),
+  array(
+    'url' => 'services/area-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
+    'alt' => 'Carpet shampoo Queens',
+    'w' => 395,
+    'h' => 495,
+  ),
 )
 ?>
 

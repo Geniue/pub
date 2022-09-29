@@ -1,9 +1,9 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Pet Stains and Odor Cleaning";
-$site_description = "Trusted pet stain removal and pet odor removal service in NYC. Commonly used for pet urine removal and pet dander/allergy removal!";
-$site_keywords = "getting urine out of carpet, my carpet smells like dog pee, clean dog pee off carpet, dog urine stain on carpet, remove urine odor from carpet, steam clean cat urine, my rug smells like dog pee, best way to clean puppy pee from carpet, removing human urine from carpet, best steam cleaner for dog urine, pet urine deodorizer, carpet cleaner for urine smell, remove cat urine odor from carpet, best carpet cleaner for pet urine";
+$site_title = "Mattress Cleaning";
+$site_description = "As a trusted, professional, and recommended upholstery and carpet cleaning service in NYC, we offer mattress cleanings for all sizes of mattresses including twin, full, queen, king, California king and more!";
+$site_keywords = "mattress cleaning NYC, mattress cleaning queens, mattress cleaming brooklyn, mattress cleaning Manhattan";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -13,7 +13,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -154,15 +154,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/pet-stains-odor-cleaning-min.webp" width="1908" height="590">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/mattress-cleaning-min.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Pet Stains and
-              Odor Cleaning</h1>
-            <h4>Trusted and recommended upholstery cleaner providing pet stain, pet odor, and pet urine stain removal services in NYC</h4>
+            <h1>Home Remodel</h1>
+            <h4>Professional and Trusted Home Remodel Service in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -179,30 +178,19 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">PET STAINS AND ODOR REMOVAL</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Home Remodel</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            We all love our pets but sometimes they make a mess on couches, upholstery, carpets, and area rugs. In these moments, its time to act fast so that their stains don't settle in and smells don't pollute the air quality in the house. PristineGreen understands that pet owners care for their furry friends like children and we use non-toxic products to ensure that any furniture cleaning or area rug cleaining is done both thoroughly and safely. 
-          </strong></p>
-        <p>
-          Some stains are easy to clean up but others are difficult. Cat urine stains can be particulary stinky and can linger in fabric no matter how hard you try to clean the cushion yourself. Other messes like dog vomit are easy to clean but without the proper tools, can leave a mark on your textile as the acid in the bile can actually stain fabric. Whatever the issue be, PristineGreen has both the tools, products, and expertise to get the job done perfectly and safely!
-        </p>
-        <p>
-          When dealing with any type of pet stain on your upholstery, its important to call a professional carpet cleaner quickly as almost all pet stains and odors require immediate attention or staining may happen. Pet urine stains, if left untreated for weeks to months can become permenant in fabric. Luckily no matter how long you wait for smells, they can most often be removed, but who wants to live with stinky smells! 
-			 <p>
-          <strong>Pet Hair Removal</strong> - We all love our pets but they sometimes leave a lot of hair around making a huge mess! When these hairs accumulate on the couch or armchair, they can be very difficult to remove as the hairs embed themselves in the fabric. The DIY homeowner will have a tough time removing that quantity of hair effective. It's best to call us, professional carpet cleaners to professionally remove these hairs leaving your upholstery pristine and clean!
-        </p>
-        <p>
-          <strong>Stain Removal</strong> - We use special green stain removing formulas that have been certified by the US EPA as part of their “Safer Choice” program to clean the toughest of stains with great results! Whether it is cat urine stain or dog vomit issue or others, we have a solution for you!
-        </p>
-        <p>
-          <strong>Odor Removal and Deodorizing</strong> - Just like us, our pets have their favorite spot on a piece of furniture, whether it be that couch cushion, that armchair, or that spot on the mattresses. His or her cute feline or canine body over time leaves oils and hair which can create an odor that just won’t go away. That’s why we recommend having regular cleanings if you own a pet, cat or dog, to ensure your home remains odor free, sanitized and clean with our hair removal and deodorizing services. Furthermore, some cat excretions have hormones and phermones which are meant to be extremely smelly. These can be nearly impossible for the DIY homeowner to remove from carpet or upholstery. We use specialized products to tackle these types of pet odor smells with great success. 
-        </p>
-        <p>
-          Call PristineGreen Upholstery and Carpet cleaning today to learn how we can bring your upholstery back to new with your green products and deep cleaning shampoos and steam cleanings.
-        </p>
+         Renovating the home can be one of the biggest projects a homeowner can undertake in his lifetime. Whether it be a bathroom model, kitchen renovation, or a basement renovation, we understand how important for you that this project comes out right. From the beginning of the process, our professional team will guide you through the design process into the building phase, and finally into the finishing steps. We will ensure that your vision comes to life, within your budget, and within your timeframe! 
+        </strong></p>
+		  <p><strong>Custom Home Building</strong></p>
+        <p>Remodeling a home can take many forms. Whether large projects like gutting and renovating a kitchen or knocking down walls to create an open concept living room, or small projects like replacing light fixtures or repainting a room, our team as the specialized knowledge to undertake all sizes of custom home building projects. Whatever your experience in residential construction, Reflections Construction, your trusted local home renovation contractor, will guide you through all the steps of transforming your living space from design, to cost, to build.  </p>
+		  <p><strong>Construction Services</strong></p>
+        <p>We offer a variety of construction services for a home remodel. We are often selected to do both large and small bathroom renovations as well as kitchen renovations. In addition, we often do garage renovations and patio building. Yet whatever project you have in which you need a general contractor, we have the skills and trained professionals to help you. We even are able to tacke more specialized jobs like pool building, miodular building, and bardnominium building.</p>
+		  <p><strong>Design Build</strong></p>
+        <p>With every project, a clear design needs to be created in order to fully express the vision of the client as well as to give a clear direction to the various renovation contractors that will be a part of the build. The design needs to include the type of supplies used, the dimensions of the elements (like sinks, vanities, cabinets, etc.), colors of paint, and more. As much as a we and the client will try to determine all aspects of the design in the build, while under construction, questions will arise and more discussions will happen to ensure the build progresses properly.  </p>
       </div>
     </div>
   </div>
@@ -222,23 +210,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Pet Odor Remover</h6>
+                <h6>Bathroom Renovations</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Dog Pee Stain Remover</h6>
+                <h6>Kitchen Remodeling</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Animal Pee Cleaner</h6>
+                <h6>Builiding a Deck</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Clean Cat Urine from Mattress</h6>
+                <h6>Excavating Contractors</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Pet Odor Stain Removal</h6>
+                <h6>House Construction</h6>
               </li>
             </ul>
           </div>
@@ -246,23 +234,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Dog Pee Cleaner Service</h6>
+                <h6>Residential Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Cat Urine Stain Removal</h6>
+                <h6>Kitchen Makeovers</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Pet Stain Cleaner</h6>
+                <h6>Sustainable Building</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Steam Cleaner for Pet Stains</h6>
+                <h6>Garage Builders</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Best Carpet Cleaner for Pet Odors</h6>
+                <h6>Green Construction</h6>
               </li>
             </ul>
           </div>
@@ -277,8 +265,45 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </section>
 
 <?php
-$pg_service = 'Professional Pet Stain & Odor Removal Services';
-$pg_place='';
+$pg_service = 'home remodel';
+$pg_place=array(
+  array(
+    'url' => '',
+    'alt' => '',
+    'w' => 395,
+    'h' => 527,
+  ),
+  array(
+    'url' => '',
+    'alt' => '',
+    'w' => 395,
+    'h' => 296,
+  ),
+  array(
+    'url' => '',
+    'alt' => '',
+    'w' => 345,
+    'h' => 259,
+  ),
+  array(
+   'url' => '',
+    'alt' => '',
+    'w' => 395,
+    'h' => 527,
+  ),
+  array(
+    'url' => '',
+    'alt' => '',
+    'w' => 395,
+    'h' => 527,
+  ),
+  array(
+   'url' => '',
+    'alt' => '',
+    'w' => 395,
+    'h' => 495,
+  ),
+);
 ?>
 
 <style>
@@ -315,6 +340,7 @@ $pg_place='';
 .form-inline button:hover {
   background-color: royalblue;
 }
+
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -372,47 +398,38 @@ $pg_place='';
 	.callback-form-bar {
 		border-radius: 0px !important;
 	}
+
 </style>
 
 <?php
-$pg_service_title = 'steam cleaning for pet stains';
+$pg_service_title = 'mattress cleaning';
 $pg_images = array(
   array(
-    'url' => 'rsz_curtain_cleaning_croydon.jpg',
+    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'Upholstery-Cleaning-in-Bromley.jpg',
-    'alt' => 'Upholstery Carpet Cleaning',
-    'w' => 395,
-    'h' => 296,
-  ),
-  array(
-    'url' => 'rsz_curtain_cleaning_in_london.jpg',
-    'alt' => 'Queens Carpet Cleaner',
-    'w' => 345,
-    'h' => 259,
-  ),
-  array(
-    'url' => 'rsz_curtain_cleaning_croydon.jpg',
-    'alt' => 'Area Rug Cleaning',
+    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
+    'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'rsz_curtain_cleaning_in_london.jpg',
-    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
+    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
+    'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'carpet-cleaner-nyc-New-York-best-carpet-steam-cleaner-PristineGreen-Upholstery-and-Carpet-Cleaning-10010.webp',
-    'alt' => 'Carpet shampoo Queens',
+    'url' => 'services/mattress-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
+    'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
-    'h' => 495,
+    'h' => 527,
   ),
+
+
 )
 ?>
 
@@ -423,4 +440,3 @@ include ($_SERVER['DOCUMENT_ROOT'].'/partials/call-section.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/partials/footer-top.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/footer-optimize.php');
 ?>
-

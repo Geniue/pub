@@ -13,7 +13,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -171,8 +171,8 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Upholstery Cleaning</h1>
-            <h4>Trusted and recommended upholstery cleaner in NYC, specializing in deep cleaning and steam cleanig your furniture items</h4>
+            <h1>Retaining Wall Contractor</h1>
+            <h4>Need Retaining Wall Contracting in NYC?</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -189,53 +189,26 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">UPHOLSTERY CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Retaining Wall Contractor</h2>
         </div>
       </div>
       <div class="col-md-12">
-		  
         <p><strong>
-            PristineGreen Upholstery and Carpet Cealning understands that you have spent time, energy, and money investing in your furniture, whether it be your couch,
-            carpet, area rugs, mattresses, dining chairs, runners, and more. That’s why when cleaning, we treat your items with the utmost care and use only the proper
-            non toxic products to ensure your furniture’s health and long life.
+            A retaining wall can be an irreplacable addition to your backyard's landscape. If your terrain is hilly, it can be the barrier between the slope and a trenched flat space. It can also be used to create borders around a sitting space where plants and a garden can be grown. Whatever your use for a retaining wall, hiring a proper retaining wall contractor is essential who knows how to propery build your wall for longevity and aesthetics. 
           </strong></p>
-        <p>
-         Over time, natural wear and tear occurs, slowly leaving dirt, grime, bacteria, and even allergens on your upholstery. At PristineGreen Cleaning, we can help you maintain either a residential cleaning or commercial cleaning schedule to ensure that your furniture investments stay fresh, clean and hygienic!
+         <p> <strong>Retaining Wall Construction</strong></p>
+        <p> There are several elements that need to be considered when building a retaining wall. The height of the wall, the drainage, the type of dirt is is retaining, and the grade of the slope among other aspects. Furthermore, the masonry construction with stone or concrete which is used as the wall itself. With all these considerations in mind, our team at Reflections Construction will work with you to determine the design build. We will offer you a variety of options for facades, being stone, concrete, plastic, and more and will work with you to maximize what you can get while staying within your budget.  
+        </p>
+     
+         <p> <strong>Retaining Wall Cost</strong></p>
+        <p> The cost of a retaining wall can vary depending on a variety of factors. The height of the wall, what it is retaining, and the material used for the facade are all factors. More specific factors that could increase the price are choosing a stone over a concrete facade, or if the wall is tall enough that it needs extra reinforcement so that it doesn't fall over in the rain. Furthermore, if draining is an issue, extra drain pipes may be needed to be installed which may increase the price. Whatever your situation, our expert team of retaining wall contractors at Refelctions Contruction will help you choose the right materials and design build to fit your budget. 
+        </p>
+     
+        <p>  <strong>Earthmoving</strong></p>
+     <p> Oftentimes, when a backyard space is being created, earthmoving is often a necessary task. It can be as simple as using a shovel to dig the foundation for the retaining wall or be as complicated as using a backhoe to excavate and compact dirt so that a sitting area can be created in a space which used to be a hill. Whatever your needs, our professional retaining wall and excavation contractors have the tools and experience to do professional eathrmoving and excavation for your home.
         </p>
         <p>
-         We employ a unique and effective cleaning method, coupled with non toxic and green products that produces incredible results. We also use state-of-the-art machines that clean quickly, and leave your furnishings without any residue. With only 5-star ratings, our customers are extremely happy and so are we because of it.
-        <p>
-         Upholstery comes in a variety of styles and textures. Whether it is cotton, linen, microfiber, leather, velvet, or silk we have a solution for you! Each fabric needs its own special care and our technicians are trained to know what to do, what technique and which organic product to use, with each possibility. We employ a unique and effective cleaning method, coupled with non toxic and green products that produces incredible results. We also use state-of-the-art machines that clean quickly, and leave your furnishings without any residue. With only 5-star ratings, our customers are extremely happy and so are we because of it.
-        </p>
-        <p>
-         Whether it be wine stains, juice or food spilling from children, or pet odor and pet stains from your favorite dog or cat, we understand that life happens and have a solution for you. Before even giving you a quote over the phone, we know exactly what we are cleaning and what to do, whether a steam clean, shampoo, stain removal or more, to produce a top quality clean!
-        </p>
-		
-		  
-		  <p><strong>Stain Removal</strong></p>
-        <p>
-          We use special green stain removing formulas that have been certified by the US EPA as part of their “Safer Choice” program to clean the toughest of stains with great results! Whether it is a common wine stain, coffee stain, tea stain, ink stain, pet stain, or marker or crayon from the child (we have seen many of those!), we have a solution for you!
-        </p>
-		  
-		 <p> 
-			<strong>Dust Mite Removal</strong>
-		</p>
-        <p>
-           - It can be unnerving to know that dust mites are living in your furniture! On that, for certain individuals, allergic reactions can occur like coughing, sneezing, and itchiness among others. Whatever your sensitivity, we have a green and non-toxic solution to dealing with dust mites that leaves your upholstery feeling fresh, clean, and hygienic!
-        </p>
-		  
-		  
-		  <p><strong>Water Staining</strong></p>
-        <p>
-           Our deep cleaning protocol which may include either a steam cleaning or upholstery shampoo will wipe away all water stains that have been plaguing your furniture. They can be unsightly and make your beautiful home feel dirty. We use our non-toxic formulas with our unique and effective cleaning methods to bring you deep upholstery cleaning in NYC, Brooklyn, Queens, and beyond!
-        </p>
-		  
-		  <p><strong>Odor Removal and Deodorizing</strong></p>
-        <p>
-           Just like us, our pets have their favorite spot on a piece of furniture, whether it be that couch cushion, that armchair, or that spot on the mattresses. His or her cute feline or canine body over time leaves oils and hair which can create an odor that just won’t go away. That’s why we recommend having regular cleanings if you own a pet, cat or dog, to ensure your home remains odor free, sanitized and clean with our hair removal and deodorizing services.
-        </p>
-        <p>
-          Call PristineGreen Upholstery and Carpet cleaning today to learn how we can bring your upholstery back to new with your green products and deep cleaning shampoos and steam cleanings.
+          Call Reflections Construction today to learn more about how we can help you choose and build the right retaining wall for your home!
         </p>
       </div>
     </div>
@@ -246,7 +219,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   <div class="container">
     <div class="row">
       <div class="col heading-text">
-        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of rug and furniture cleaning services...</h3>
+        <h3 class="text-blue fs-3 fs-md-5 lh-1-3 lh-md-auto">We offer a variety of retaining wall contracting services...</h3>
       </div>
     </div>
     <div class="row">
@@ -256,25 +229,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Upholstery Cleaning Services</h6>
+                <h6>Custom Home Builders</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Office Chair
-                  Cleaning Services</h6>
+                <h6>Earthmoving</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Getting Stains
-                  out of Upholstery</h6>
+                <h6>Home Additions</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Mattress Cleaning</h6>
+                <h6>Deck Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Oriental Rug Cleaning</h6>
+                <h6>Bathroom Contractors</h6>
               </li>
             </ul>
           </div>
@@ -282,25 +253,23 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Chair Cleaning Service</h6>
+                <h6>Concrete Foundation Contractors</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Get Urine
-                  out of Couch</h6>
+                <h6>Block Construction</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Cushion Cleaning</h6>
+                <h6>Kitchen Remodel Contractors</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Deep Clean Fabric
-                  Couch and Chairs</h6>
+                <h6>Apartment Remodel</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Organic Upholstery Cleaner</h6>
+                <h6>Home Repairs Contractor</h6>
               </li>
             </ul>
           </div>

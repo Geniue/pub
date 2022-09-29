@@ -1,9 +1,9 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Rug Cleaning";
-$site_description = "Top-Rated rug cleaner in NYC providng a variety of carpet cleaning services. We clean all types of rugs, whether they be cotton, polyester, silk, wool, area rugs, oriental rugs, wall-to-wall rugs, and more and provide rug steam cleaning and rug shampooing services!";
-$site_keywords = "area rug cleaning nyc, carpet cleaner service, carpet cleaner nyc, rug cleaner nyc, rug cleaner brooklyn, area rugs cleaning, carpet cleaner brooklyn, rug cleaner, clean area rug near me, carpet cleaning professional, the best carpet cleaning, rug cleaner queens, carpet cleaner queens, best carpet steam cleaner, carpet cleaner, carpet cleaning commercial, carpet shampoo cleaning, carpet shampoo near me, rug shampoo near me, steam cleaner near me";
+$site_title = "Commercial Cleaning";
+$site_description = "At PristineGreen, a trusted and recommended carpet cleaner in NYC, we offer commerical carpet cleaning services in NYC, helping you keep your business and office rugs and upholstery pristine clean!";
+$site_keywords = "commercial carpet cleaning, commerical upholstery cleaning, office carpet, office upholstery cleaning";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -13,7 +13,7 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
@@ -154,14 +154,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/rug-cleaner-nyc-min.webp" width="1920" height="590">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/commercial-cleaning-nyc-min.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Area Rug Cleaning</h1>
-            <h4>Need Area Rug Cleaning Services?</h4>
+            <h1>Finish Basement</h1>
+            <h4>Trusted and recommended basement finishers in NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -173,71 +173,22 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
   </div>
 </section>
 
-
 <section id="main-content-cleaning" class="py-7 main-content-cleaning-service">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Area Rug Cleaning</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Finish Basement</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            Area rugs are a centerpiece to your home, adding color and texture. But by the nature of their location, under the feet and sometimes in homes where shoes are
-            worn inside, they gather dirt, grime, and bacteria over time. That’s why its important to have a professional carpet cleaner and rug cleaner nearby to bring your
-            rugs to new when needed!
+          An unfinished basement can seem nearly useless. Its dark, dingy, and really only used to keep your old belongings and maybe some utilites. But the potential for a basement can be limitless: an extra bedroom, an entertainment center, a playroom for the kinds, and more! OUr team at Reflections Construction specializes in finishing basements. No matter how big or small the job is, we will get it done to perfection!
           </strong></p>
-        <p>
-          Rugs can be very porous and become a home to dirt, pollen, allergens, and odors over time through just normal wear and tear. Regular carpet steam cleaning and area
-          rug shampooing are necessary to ensure that every crevice of your textile investments are kept clean and sanitary, ensuring their long life.
-        </p>
-        <p>
-          Through years of experience, we have developed an efficient, effective system that both freshens and cleans while also removing deep stains like wine stains,
-          pet stains, coffee stains, tea stains, and more. Our system is versatile as well as we often do all the work in the clients’ homes but also can pick up and deliver rugs if needed. For those special care items like oriental rugs, we pick those up and deliver them.
-        <p>
-          <strong>Stain Removal</strong><br/><br/>
-          PristineGreen Cleaning specializes in providing care for high end rugs that are considered antique, oriental, vintage, Persion, Handwoven, Wool, Silk,
-          and more. We have a variety of cleaning methods to meet the needs of any type of carpet. From simple carpet shampooing to rug deep cleaning in a special
-          pool with special chemicals. Whatever your need, we are the best carpet cleaning professional in NYC, Brooklyn, Queens, and beyond!
-        </p>
-		  
-		  <p>
-			  <strong>
-			  	Deodorization and Elimination of Odors
-			  </strong>
-		  </p>
-		  <p>
-			  At PristineGreen we specialize in eliminating all types of odors from your area rugs. Our dogs love to use them as wee-wee pads and sometimes the cats leave their mark on them as well. If you have little children and toddlers, you know that spills and stains and smells will pop up everywhere, including your beloved area rug. Whatever the issue, our professional team at PristineGreen will use our green and non-toxic chemicals to eliminate all type of odors so your home can be fresh again!
-		  </p>
-		  
-		  <p>
-		  	<strong>Expertise Area Rug Cleaning</strong>
-		  </p>
-        <p>
-          Whether it be wine stains from a fun party, juice or food spilling from children, or pet odor and pet stains from your favorite dog or cat, we understand that life happens and have a solution for you. Before even giving you a quote over the phone, we know exactly what we are cleaning and what to do, whether a steam clean, shampoo, stain removal or more, to produce a top quality clean!
-        </p>
-        <p>
-          As a carpet cleaner in NYC boroughs, we have seen it all from wine stains, to pet odors, to simple freshening from ambient dirt and dust. Whatever the need,
-          our professional carpet cleaning and area rug shampooing services will fit your needs. With our carpet steam cleaning methods, we will bring your textile
-          investments back to new!
-        </p>
-
-        <p>
-          <strong>Dust Mite Removal</strong><br/><br/>
-          Dust mites are microscopic insects which feed on dust particles and generate a host of allergens that can cause mild to severe reactions in
-          people such as asthma and hayfever. Don’t be alarmed as we are carpet cleaning professionals and can remove them safety, bringing your home back to a clean,
-          hygienic state.
-        </p>
-        <p>
-          If dust mites are an issue for you, our technician will use our effective green and non-toxic methods to ensure that your carpets are greatly cleaned of
-          allergens and dust mites that may have created a home in your carpets. As one of the best carpet steam cleaners, we have the tools and experience to rid
-          you of allergens so that you can feel comfortable in your home.
-        </p>
-        <p>
-          Call PristineGreen today to get a free and fast quote on your carpet or upholstery item. We only use non-toxic and green products and methods so you can
-          feel assured that your couch or rug will be completely clean and safe for you, your pets, and your family!
-        </p>
+          <p><strong>Basement Renovations</strong></p>
+        <p>When renovating your basement, there are a variety of improvements that are necessary to make it livable. These improvements usually include insualting the walls, adding a flooring, and building a ceiling. But before anything is done, a moisture test is necessary to determine if your new basement will be plagued by leaks and mold. If high moisture is found, waterproofing may be necessary. Smaller design build items may be choosing and installing light fixtures, sound insulating the walls, painting, and HVAC installments. At whatever stage you may be with your basement remodel, we will help you design your build, find the average cost of your basement remodel, and finish the product!</p>
+         <p><strong>Basement Bathroom Remodel</strong></p>
+        <p>Adding a bathroom to your finished basement brings a huge amount of practical and economic value to your home. The basement can now be a legitimate living space, and household members and guests won't have to run up and down the stairs to use the restroom. There are build consideratings that must be considerd with basement bathroom remodels including plumbing, electrical, and permits. As experienced bathroom renovation contractors, we know all the ins-and-outs of a basement bathroom creation and renovation including offering you an accurate bathroom remodel cost, so that there will not be any disruptions in the build. </p>
       </div>
     </div>
   </div>
@@ -257,23 +208,25 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-1">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Premier Carpet Cleaning</h6>
+                <h6>Commerical Carpet
+                  Cleaning Service</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Professional Carpet Shampooer</h6>
+                <h6>Office Carpet Cleaning</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Carpet Water Damage Cleaning</h6>
+                <h6>Commerical Carpet
+                  Steam Cleaner</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>House Carpet Cleaning</h6>
+                <h6>Commercial Spot Extractor</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Get Stains out of Carpet</h6>
+                <h6>Restaurant Carpet Cleaning</h6>
               </li>
             </ul>
           </div>
@@ -281,23 +234,26 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
             <ul class="offer-2">
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Professional Rug Cleaning NY</h6>
+                <h6>Commerical Shampooers</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Eco Green Carpet Cleaning</h6>
+                <h6>Business Carpet Cleaning</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Rug Restoriation</h6>
+                <h6>Industrial Steam
+                  Carpet Cleaning</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>DRug Washing Service</h6>
+                <h6>Commerical Carpet and
+                  Upholstery Cleaning</h6>
               </li>
               <li>
                 <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Rug Cleaner NYC</h6>
+                <h6>Industrial Carpet
+                  Cleaning</h6>
               </li>
             </ul>
           </div>
@@ -309,15 +265,13 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
       </div>
     </div>
   </div>
-
 </section>
 
-
 <?php
-$pg_service = 'Professional Area Rug Cleaners';
-$pg_place='in NYC';
-
+$pg_service = 'Professional Commercial Cleaners';
+$pg_place='';
 ?>
+
 <style>
 * {box-sizing: border-box;}
 
@@ -352,8 +306,6 @@ $pg_place='in NYC';
 .form-inline button:hover {
   background-color: royalblue;
 }
-
-
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -412,51 +364,34 @@ $pg_place='in NYC';
 		border-radius: 0px !important;
 	}
 </style>
+
 <?php
-$pg_service_title = 'rug cleaning';
+$pg_service_title = 'commercial cleaning';
 $pg_images = array(
   array(
-    'url' => 'services/area-rug-cleaning/carpet-cleaning-NYC-Queens-NY-11385-carpet-cleaner-service-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
+    'url' => 'services/commercial-cleaning/carpet-cleaner-nyc-New-York-best-carpet-steam-cleaner-PristineGreen-Upholstery-and-Carpet-Cleaning-10010.webp',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/area-rug-cleaning/carpet-cleaner-service-rug-cleaning-NYC-10010-NY-PristineGreen-Upholstery-and-Carpet-Cleaning-New-York.jpg',
+    'url' => 'services/commercial-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
     'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 296,
   ),
   array(
-    'url' => 'services/area-rug-cleaning/carpet-cleaner-nyc-NY-PristineGreen-Upholstery-and-Carpet-Cleaning-10010-New-York-professional-rug-cleaner-NYC.jpg',
+    'url' => 'services/commercial-cleaning/10010-NY-sofa-cleaning-NYC-New-York-couch-cleaner-NYC-PristineGreen-Upholstery-and-Carpet-Cleaning-min.webp',
     'alt' => 'Queens Carpet Cleaner',
     'w' => 345,
     'h' => 259,
   ),
   array(
-    'url' => 'services/area-rug-cleaning/Area-Rug-Cleaning-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-NY.jpg',
+    'url' => 'services/commercial-cleaning/11105 best commercial steam cleaning PristineGreen Upholstery and Carpet Cleaning Queens NY commercial carpet cleaning service-min.jpg',
     'alt' => 'Area Rug Cleaning',
     'w' => 395,
     'h' => 527,
-  ),
-  array(
-    'url' => 'services/area-rug-cleaning/Queens-Carpet-Cleaner-Service-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-residential-carpet-cleaning.jpg',
-    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
-    'w' => 395,
-    'h' => 527,
-  ),
-  array(
-    'url' => 'services/area-rug-cleaning/11385-carpet-cleaner-brooklyn-NY-Queens-rug-cleaner-brooklyn-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
-    'alt' => 'Carpet shampoo Queens',
-    'w' => 395,
-    'h' => 495,
-  ),
-  array(
-    'url' => 'services/area-rug-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-10010-NY.jpg',
-    'alt' => 'Carpet shampoo Queens',
-    'w' => 395,
-    'h' => 495,
-  ),
+  )
 )
 ?>
 

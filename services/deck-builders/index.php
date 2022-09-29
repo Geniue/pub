@@ -1,10 +1,9 @@
-
 <?php
 include($_SERVER['DOCUMENT_ROOT'].'/main_action.php');
 
-$site_title = "Green Cleaning";
-$site_description = "learn how we use only green and non-toxic cleaning in our upholstery cleaning and carpet cleaning services";
-$site_keywords = "rug cleaning ny, green and non-toxic oriental rug cleaner, green and non-toxic sofa cleaning nyc, green and non-toxic area rug cleaning nyc, green and non-toxic carpet cleaner service, green and non-toxic ny carpet cleaning, green and non-toxic carpet cleaner nyc, green and non-toxic couch cleaner nyc, green and non-toxic rug cleaner nyc, green and non-toxic upholstery cleaning brooklyn, green and non-toxic furniture cleaning nyc, green and non-toxic carpet cleaner companies near me, green and non-toxic sofa cleaning brooklyn, green and non-toxic mattress cleaner nyc, green and non-toxic upholstery cleaning nyc, green and non-toxic rug clean service, green and non-toxic couch cleaning services, green and non-toxic rug cleaner brooklyn, green and non-toxic couch cleaner brooklyn, green and non-toxic mattress cleaning brooklyn, green and non-toxic area rugs cleaning, green and non-toxic carpet cleaner brooklyn, green and non-toxic furniture cleaning brooklyn, green and non-toxic rug cleaner, green and non-toxic clean area rug near me, green and non-toxic upholstery cleaning queens, green and non-toxic carpet cleaning professional, green and non-toxic the best carpet cleaning, green and non-toxic rug cleaner queens, green and non-toxic best upholstery cleaning, green and non-toxic carpet cleaner queens, green and non-toxic upholstery steam cleaning, green and non-toxic best carpet steam cleaner, green and non-toxic carpet cleaner, green and non-toxic carpet cleaning commercial, green and non-toxic carpet shampoo cleaning, green and non-toxic carpet shampoo near me, green and non-toxic couch cleaner, green and non-toxic couch steam cleaning, green and non-toxic furniture cleaning, green and non-toxic furniture steam cleaning, green and non-toxic mattress cleaner, green and non-toxic rug shampoo near me, green and non-toxic sofa cleaning, green and non-toxic steam cleaner near me, green and non-toxic upholstery cleaning, green and non-toxic couch cleaner queens, green and non-toxic furniture cleaning queens, green and non-toxic mattress cleaner brooklyn, green and non-toxic mattress cleaner queens, green and non-toxic sofa cleaner queens, green and non-toxic sofa cleaning queens";
+$site_title = "Auto Interior Cleaning";
+$site_description = "We offer auto interior cleaning for all types of vehicles in NYC, whether it be vans, SUVs, or compact cars. We clean the entire interior upholstery using professional carpet cleaning methods. ";
+$site_keywords = "auto interior cleaning, auto seat cleaning, auto interior car cleaning, auto seat spot clean, auto interior upholstery cleaning";
 $canonical = $site_canonical;
 $og_site_title = "";
 $og_description = "";
@@ -14,12 +13,13 @@ $og_image = "";
 $ld_json = <<<LD_JSON
 
 LD_JSON;
-
+$scc = count(explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])) > 1 ? explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[0].' '.explode("-", explode("/", $_SERVER['SCRIPT_NAME'])[2])[1] : explode("/", $_SERVER['SCRIPT_NAME'])[2];
 ?>
 <?php
 $bodyClass = 'service-template-default single single-service postid-2172 group-blog';
 include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 ?>
+
 <style>
 .bg-blue.dark {
 		background-color: #2baf38
@@ -155,14 +155,14 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 	}
 </style>
 <section id="top-banner" class="position-relative">
-  <img class="img lazy" data-src="/assets/images/green-carpet-cleaner-nyc.jpg" style="object-fit: cover !important;">
+  <img class="img lazy" data-src="<?= $baseUrl ?>/assets/images/auto-interior-cleaning-nyc-min.webp" width="1920" height="590">
   <div class="banner-content container-fluid padding-0 position-absolute w-100 py-7">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="heading-text services-heading">
-            <h1>Green Cleaning</h1>
-            <h4>Get green and non-toxic rug cleaning and upholstery cleaning services in NYC</h4>
+            <h1>Deck Builders</h1>
+            <h4>Trusted and recommended deck builders im NYC</h4>
           </div>
         </div>
         <div class="text-left pb-3">
@@ -179,29 +179,24 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
     <div class="row">
       <div class="col-md-12">
         <div class="section-header text-center pb-4">
-          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">GREEN CLEANING</h2>
+          <h2 class="lh-1-3 lh-md-auto fs-1 fs-md-3 mb-3 text-green text-uppercase">Deck Builders</h2>
         </div>
       </div>
       <div class="col-md-12">
         <p><strong>
-            In today’s world staying healthy is a high priority of young and old people alike. But with many companies selling customers toxic products, it
-            requires much attention and fact-finding to determine whether a product is safe or not. At PristineGreen, we strive our best to fnu the most green
-            and non-toxic products to use when our cleaning which is why we often receive calls from health-conscious individuals who sought us out specifically.
+           We all get excited when the weather gets warmer. There is more social activity and fun outdoors. Ad most homeowners know, having a space like a porch, patio, or deck can make all the difference in the summer and spring fun activities. Even in the older Fall and winter, the patio has its purpose. Whatever the case may be, at Reflections Construction, our deck building experts know how to beautifully integrate a deck onto your house that will both impress your guests and stand up to the elements for years to come! 
           </strong></p>
+       <br><p><strong>Deck Construction</strong><br><br>
+         Designing and building a deck has a variety of elements to consider: How and where it attaches to the home, its size, whether it holds other amenities like a pool, the type of wood and staining used, and more! At Reflections Construction, we know all the design build elements to discuss with customers so that no rock is left unterned and no surpises creep up on the build process. We will walk you through step by step how the patio of your dreams will look and cost so you will be in full control.   
+			 </p>
+       <br><p><strong>Concrete Patio Contractors</strong><br><br>
+         Concrete patios have many benefits to the homewowner. They require very little maintenance, last a long time, can hold heavy loads, and can even be stained or glazed to add aesthetic appeal. The cost of a coincrete patio also greatly differs from that made from stained wood or pressure teated wood. At Reflections Construction as a concrete patio contractor, we will outlined the differences in concrete patio building so that you can make the best choice for your home.
+			 </p>
+		   <br><p><strong>Leather or Fabric Seats</strong><br><br>
+        No matter what kind of seats your car has, we've got your covered. For fabric seats, we use professional upholstery cleaning equipment and chemicals to bring up all types of set-in stains from milk stains, food stains, soda stains, pet accidents, and more. For leather, we use a professional process to gently agitate and clean the leather whether it be performated or solid. We also condition the leather if necessary to ensure it does not crack and to extend its life. You will be impressed with our service!
+			 </p>
         <p>
-          To ensure that our products are non-toxic and green, we only use products that have been certified by the US EPA as part of their “Safer Choice” program
-          which vets many products to deterimine whether its ingredients are considered low-toxicity. Sometimes customers do ask for special cleaning procedures and
-          special stain-cleanups and on these occasions we may use products that are outside of this certification, but we let our clients know of this.
-        </p>
-        <p>
-          Because of our high standards for green and non-toxic products, our customers often include pregnant mothers who are cleaning the home in preparation for
-          the birth of their child. We often also have new mothers who are concerned for the health of her child and thus seeks out all-natural cleaning products
-          and solutions to ensure the health of her child and family. We also have pet owners who want to ensure that the products used in the cleaning wont’
-          affect the health of their dog or cat. And sometimes we just have health conscious customers that would rather hire a green cleaning company than one
-          that uses harsh and toxic chemicals. nup
-        <p>
-          At PristineGreen, we are proud to pave the way for green cleaning and non-toxic carpet and upholstery cleaning, serving our NYC community. Call us today
-          to learn more about our cleaning products and how we can help you keep our home green, clean, and hygienic!
+          Contact Reflections Construction today to get a free and quick quote on your patio and deck building needs!
         </p>
       </div>
     </div>
@@ -221,60 +216,55 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
           <div class="col-md-6">
             <ul class="offer-1">
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Steam Green
-                  Carpet Cleaning</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Car Seat Shampoo</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Eco Friendly
-                  Carpet Cleaning</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Car Deep Cleaning</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Green Homes
-                  Carpet Cleaning</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Car Steam Cleaning</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Green Carpet
-                  Cleaning Services</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Car Shampooing</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Eco Carpet Cleaner</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Interior Car Wash</h6>
               </li>
             </ul>
           </div>
           <div class="col-md-6">
             <ul class="offer-2">
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Green Cleaning
-                  Carpet Cleaners</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Interior Detailing</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Organic Carpet Cleaners</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Professional Car Interior Cleaning</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Non-Toxic Carpet Cleaning</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Deep Clean Car Interior</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>All Natural Carpet Cleaning</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Leather Car Seat Cleaning</h6>
               </li>
               <li>
-                <img class="lazy" data-src="/assets/icons/tick-mark.webp" alt="" width="54" height="54">
-                <h6>Green Carpet Shampooer</h6>
+                <img class="lazy" data-src="<?= $baseUrl ?>/assets/icons/tick-mark.webp" alt="" width="54" height="54">
+                <h6>Car Upholstery Cleaning Service</h6>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-md-4 right-image">
-        <img class="img-fluid lazy" data-src="/assets/images/Green-Carpet-Cleaning-Van-NYC-small.webp" alt="" width="420" height="221" />
+        <img class="img-fluid lazy" data-src="<?= $baseUrl ?>/assets/images/Green-Carpet-Cleaning-Van-NYC-small.webp" alt="" width="420" height="221" />
         <a href="tel:3478716530" class="btn callnow-btn center offer-call">Call Now</a>
       </div>
     </div>
@@ -282,7 +272,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/header-optimize.php');
 </section>
 
 <?php
-$pg_service = 'Professional Green and Non-Toxic Cleaners';
+$pg_service = 'Car Interior Cleaning';
 $pg_place='';
 ?>
 
@@ -320,6 +310,8 @@ $pg_place='';
 .form-inline button:hover {
   background-color: royalblue;
 }
+
+
 </style>
 <header>
 	<div class="callback-form-bar form-inline">
@@ -377,34 +369,59 @@ $pg_place='';
 	.callback-form-bar {
 		border-radius: 0px !important;
 	}
+
 </style>
 
 <?php
-$pg_service_title = 'green cleaning';
+$pg_service_title = 'car interior cleaning';
 $pg_images = array(
   array(
-    'url' => 'services/green-cleaning/carpet cleaner nyc Queens NY 11385 green upholstery cleaning NYC PristineGreen Upholstery and Carpet Cleaning.jpg',
+    'url' => 'services/auto-interior-cleaning/11385-car-detailing-seat-shampoo-PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-internal-car-wash-NY.jpg',
     'alt' => 'Upholstery and Queen Carpet Cleaning',
     'w' => 395,
     'h' => 527,
   ),
   array(
-    'url' => 'services/green-cleaning/carpet cleaner for urine smell Queens best carpet cleaner for pet urine PristineGreen Upholstery and Carpet Cleaning NY 11385.jpg',
+    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-11385-auto-interior-cleaning-NY-full-car-interior-detail-near-me.jpg',
     'alt' => 'Upholstery Carpet Cleaning',
     'w' => 395,
     'h' => 296,
   ),
   array(
-    'url' => 'services/green-cleaning/mattress-cleaner-nyc-PristineGreen-Upholstery-and-Carpet-Cleaning-upholstery-cleaning-nyc-NY-Queens-11105.jpg',
+    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-Queens-NY-11385-interior-car-detailing-near-me-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
     'alt' => 'Queens Carpet Cleaner',
     'w' => 345,
     'h' => 259,
   ),
   array(
-    'url' => 'services/green-cleaning/1608ae8f628353.jpg',
+    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-11385-auto-interior-cleaning-NY-full-car-interior-detail-near-me.jpg',
     'alt' => 'Area Rug Cleaning',
     'w' => 395,
     'h' => 527,
+  ),
+  array(
+    'url' => 'services/auto-interior-cleaning/PristineGreen-Upholstery-and-Carpet-Cleaning-Queens-NY-deep-car-interior-cleaning-near-me-11385-auto-interior-cleaning.jpg',
+    'alt' => 'NYC Rug and Upholstery Carpet Cleaning',
+    'w' => 395,
+    'h' => 527,
+  ),
+  array(
+    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-Queens-interior-detailing-services-PristineGreen-Upholstery-and-Carpet-Cleaning-11105-NY.jpg',
+    'alt' => 'Carpet shampoo Queens',
+    'w' => 395,
+    'h' => 495,
+  ),
+  array(
+    'url' => 'services/auto-interior-cleaning/auto-interior-cleaning-interior-car-seat-cleaning-near-me-Queens-NY-11105-PristineGreen-Upholstery-and-Carpet-Cleaning.jpg',
+    'alt' => 'Carpet shampoo Queens',
+    'w' => 395,
+    'h' => 495,
+  ),
+  array(
+    'url' => 'services/auto-interior-cleaning/Queens 11385 NY PristineGreen Upholstery and Carpet Cleaning auto interior cleaning auto carpet cleaner near me.jpg',
+    'alt' => 'Carpet shampoo Queens',
+    'w' => 395,
+    'h' => 495,
   ),
 )
 ?>
@@ -416,3 +433,4 @@ include ($_SERVER['DOCUMENT_ROOT'].'/partials/call-section.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/partials/footer-top.php');
 include ($_SERVER['DOCUMENT_ROOT'].'/footer-optimize.php');
 ?>
+
