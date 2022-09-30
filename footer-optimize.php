@@ -197,7 +197,7 @@ left: 197px;">&nbsp;
         <span class="vertical-border"></span>
         <li><a href="/sitemap.xml" target="_blank" rel="noopener">Sitemap</a></li>
       </ul>
-      <p>©  2021 PristineGreen Cleaning, LLC. All rights reserved.</p>
+      <p>©  <?=date("Y")?> PristineGreen Cleaning, LLC. All rights reserved.</p>
     </div>
   </div>
 </section>
